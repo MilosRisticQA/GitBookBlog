@@ -58,7 +58,8 @@
 
 ## Linux
 
-* [Untitled](linux/untitled.md)
+* [VS Code on Ubuntu 19.10](linux/untitled.md)
+* [Tools](linux/tools.md)
 
 ## Projects
 
