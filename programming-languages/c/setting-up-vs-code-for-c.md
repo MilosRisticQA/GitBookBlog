@@ -5,7 +5,7 @@
 ### Step 2. Install [VS Code](https://code.visualstudio.com/download)\*\*\*\*
 
 {% hint style="info" %}
-for Linux users see [VS Code on Ubuntu 19.10 ](../../linux/untitled.md)page
+_for Linux users see_ [_VS Code on Ubuntu 19.10_ ](../../linux/untitled.md)_page_
 {% endhint %}
 
 ### **Step 3. Install C\# Extension**
