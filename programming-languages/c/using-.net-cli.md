@@ -135,3 +135,9 @@ Open cmd and type following commands:
    Run 'dotnet [command] --help' for more information on a command.
    ```
 
+
+
+{% hint style="success" %}
+_**"Project** is a collection of source code files that are put together into a single application or a single library written to share code with other developers."_
+{% endhint %}
+
