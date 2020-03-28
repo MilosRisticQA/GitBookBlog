@@ -206,11 +206,54 @@ _**"Project** is a collection of source code files that are put together into a 
       dotnet new --help
   ```
 
-Before creating a new project, let's first create a folder:
+Before creating a new project, let's first create a folder: **mkdir NewProject**
 
 ```text
 C:\Development>mkdir NewProject
 ```
 
+First we create a _**Solution**_ file: **dotnet new sln -n "NewProjectSln"**
 
+```text
+C:\Development>dotnet new sln -n "NewProjectSln"
+The template "Solution File" was created successfully.
+```
+
+Let's now create a new **console** project: **dotnet new console -n "ProjectUI"**
+
+```text
+C:\Development>dotnet new console -n "ProjectUI"
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on ProjectUI\ProjectUI.csproj...
+  Restore completed in 123.56 ms for C:\Development\ProjectUI\ProjectUI.csproj.
+
+Restore succeeded.
+```
+
+Let's create a new **Class Library**: **dotnet new classlib -n "ProjectLibrary"**
+
+```text
+C:\Development>dotnet new classlib -n "ProjectLibrary"
+The template "Class library" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on ProjectLibrary\ProjectLibrary.csproj...
+  Restore completed in 216.25 ms for C:\Development\ProjectLibrary\ProjectLibrary.csproj.
+
+Restore succeeded.
+```
+
+Now we have to put console and class library projects, one by one,  **into our Solution file** with command:
+
+**dotnet sln** nameOfSolution**.sln** **add ./**fullPathOfProject**/**nameOfProject**.csproj**
+
+```text
+C:\Development>dotnet sln NewProjectSln.sln add ./ProjectUI/ProjectUI.csproj
+Project `ProjectUI\ProjectUI.csproj` added to the solution.
+
+C:\Development>dotnet sln NewProjectSln.sln add ./ProjectLibrary/ProjectLibrary.csproj
+Project `ProjectLibrary\ProjectLibrary.csproj` added to the solution.
+```
 
