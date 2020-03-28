@@ -299,6 +299,10 @@ C:\Development\NewProject>cd ProjectUI
 C:\Development\NewProject\ProjectUI>Code .
 ```
 
+{% hint style="warning" %}
+_Click **Yes** when message "Required assets to build and debug are missing from 'ProjectUI'. Add them?" pops up from VS Code._
+{% endhint %}
+
 The result:
 
 ![ProjectUI in VS Code](../../.gitbook/assets/2020-03-28-23_35_11-projectui.csproj-projectui-visual-studio-code.png)
