@@ -27,6 +27,7 @@
 * [C\#](programming-languages/c/README.md)
   * [Introduction to C\# and .NET](programming-languages/c/introduction-to-c-and-.net.md)
   * [Setting up VS Code for C\#](programming-languages/c/setting-up-vs-code-for-c.md)
+  * [Using .NET CLI](programming-languages/c/using-.net-cli.md)
 * [JavaScript](programming-languages/javascript.md)
 * [HTML & CSS](programming-languages/html-and-css.md)
 
