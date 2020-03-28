@@ -40,6 +40,13 @@ Inside VS Code, under Extensions tab, install _**C\# for Visual Studio Code \(po
 
 ![](../.gitbook/assets/vscode-c-sharp-extension.png)
 
-  
+### Step 5. Recommended extensions:
+
+* vscode-icons 
+* Visual Studio IntelliCode
+* NuGet Package Manager
+* PackSharp
+* Live Share Extension Pack - to share VS code screen 
+
 
 

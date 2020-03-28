@@ -14,5 +14,25 @@ Inside VS Code, under _**Extensions tab**_, install _**C\# for Visual Studio Cod
 
 ![C\# extension in VS Code](../../.gitbook/assets/vscode-c-sharp-extension.png)
 
+### Step 4. Recommended extensions:
+
+* vscode-icons 
+* Visual Studio IntelliCode
+* NuGet Package Manager
+* PackSharp
+* Live Share Extension Pack - to share VS code screen 
+
+
+
+## How to use C\# in VS Code
+
+Visit [Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/) about .NET Core command-line interface \(CLI\) tools and commands we can use in **Terminal**.
+
+**Command Palette** \(F1 or Ctrl+Shift+P\) provides access to many commands. You can execute editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive window.
+
+There are different way of creating/opening our project in VS Code. Here is the example through terminal:
+
+
+
 
 
