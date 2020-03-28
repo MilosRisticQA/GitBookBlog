@@ -8,12 +8,12 @@ To interact with .NET CLI tool we can type these commands in a command prompt or
 
 Let's start .NET program we got when we installed .NET SDK:
 
-Open cmd and type following commands:
+Open **cmd** and type following commands:
 
 * **dotnet**
 
   ```text
-  C:\Users\Milosh>dotnet
+  C:\Development>dotnet
 
   Usage: dotnet [options]
   Usage: dotnet [path-to-application]
@@ -33,7 +33,7 @@ Open cmd and type following commands:
   \(provides with useful information if we need to troubleshoot our environment\)
 
   ```text
-  C:\Users\Milosh>dotnet --info
+  C:\Development>dotnet --info
   .NET Core SDK (reflecting any global.json):
    Version:   3.1.101
    Commit:    b377529961
@@ -77,7 +77,7 @@ Open cmd and type following commands:
   \(provides with different SDK commands that are available with .NET\)
 
   ```text
-  C:\Users\Milosh>dotnet --help
+  C:\Development>dotnet --help
   .NET Core SDK (3.1.101)
   Usage: dotnet [runtime-options] [path-to-application] [arguments]
 
@@ -144,7 +144,7 @@ _**"Project** is a collection of source code files that are put together into a 
   \(providing us with template options for new project with basic structure for an application with .NET CLI\)
 
   ```text
-  C:\Users\Milosh>dotnet new
+  C:\Development>dotnet new
   Usage: new [options]
 
   Options:
@@ -205,6 +205,12 @@ _**"Project** is a collection of source code files that are put together into a 
       dotnet new worker
       dotnet new --help
   ```
+
+Before creating a new project, let's first create a folder:
+
+```text
+C:\Development>mkdir NewProject
+```
 
 
 
