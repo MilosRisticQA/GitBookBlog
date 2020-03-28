@@ -206,23 +206,24 @@ _**"Project** is a collection of source code files that are put together into a 
       dotnet new --help
   ```
 
-Before creating a new project, let's first create a folder: **mkdir NewProject**
+Before creating a new project, let's first create and go to folder NewProject: **mkdir NewProject**
 
 ```text
 C:\Development>mkdir NewProject
+C:\Development\NewProject>cd NewPoject
 ```
 
 First we create a _**Solution**_ file: **dotnet new sln -n "NewProjectSln"**
 
 ```text
-C:\Development>dotnet new sln -n "NewProjectSln"
+C:\Development\NewProject>dotnet new sln -n "NewProjectSln"
 The template "Solution File" was created successfully.
 ```
 
 Let's now create a new **console** project: **dotnet new console -n "ProjectUI"**
 
 ```text
-C:\Development>dotnet new console -n "ProjectUI"
+C:\Development\NewProject>dotnet new console -n "ProjectUI"
 The template "Console Application" was created successfully.
 
 Processing post-creation actions...
@@ -235,7 +236,7 @@ Restore succeeded.
 Let's create a new **Class Library**: **dotnet new classlib -n "ProjectLibrary"**
 
 ```text
-C:\Development>dotnet new classlib -n "ProjectLibrary"
+C:\Development\NewProject>dotnet new classlib -n "ProjectLibrary"
 The template "Class library" was created successfully.
 
 Processing post-creation actions...
@@ -250,10 +251,51 @@ Now we have to put console and class library projects, one by one,  **into our S
 **dotnet sln** nameOfSolution**.sln** **add ./**fullPathOfProject**/**nameOfProject**.csproj**
 
 ```text
-C:\Development>dotnet sln NewProjectSln.sln add ./ProjectUI/ProjectUI.csproj
+C:\Development\NewProject>dotnet sln NewProjectSln.sln add ./ProjectUI/ProjectUI.csproj
 Project `ProjectUI\ProjectUI.csproj` added to the solution.
 
-C:\Development>dotnet sln NewProjectSln.sln add ./ProjectLibrary/ProjectLibrary.csproj
+C:\Development\NewProject>dotnet sln NewProjectSln.sln add ./ProjectLibrary/ProjectLibrary.csproj
 Project `ProjectLibrary\ProjectLibrary.csproj` added to the solution.
+```
+
+To reference project ProjectUI.csproj to class library ProjectLibrary.csproj do following:
+
+```text
+C:\Development\NewProject>dotnet add ProjectUI/ProjectUI.csproj reference ProjectLibrary/ProjectLibrary.csproj
+Reference `..\ProjectLibrary\ProjectLibrary.csproj` added to the project.
+```
+
+We can now run VS Code to work on our project ProjectUI.csproj, from our project folder ProjectUI, so we   
+
+
+1. list all directories:
+
+```text
+C:\Development\NewProject>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 065E-2312
+
+ Directory of C:\Development\NewProject
+
+28/03/2020  23:24    <DIR>          .
+28/03/2020  23:24    <DIR>          ..
+28/03/2020  23:09             2,862 NewProjectSln.sln
+28/03/2020  23:05    <DIR>          ProjectLibrary
+28/03/2020  23:03    <DIR>          ProjectUI
+21/03/2020  00:09            24,676 Solution file.docx
+               2 File(s)         27,538 bytes
+               4 Dir(s)  10,586,243,072 bytes free
+```
+
+2. we navigate to project folder:
+
+```text
+C:\Development\NewProject>cd ProjectUI
+```
+
+3. we open VS Code from project folder:
+
+```text
+C:\Development\NewProject\ProjectUI>Code .
 ```
 
