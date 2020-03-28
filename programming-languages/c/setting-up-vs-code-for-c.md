@@ -24,12 +24,6 @@ Inside VS Code, under _**Extensions tab**_, install _**C\# for Visual Studio Cod
 
 
 
-## How to use C\# in VS Code
-
-**Command Palette** \(F1 or Ctrl+Shift+P\) provides access to many commands. You can execute editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive window.
-
-There are different way of creating/opening our project in VS Code. Here is the example through terminal...
-
 
 
 
