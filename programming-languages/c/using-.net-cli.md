@@ -10,8 +10,6 @@ Let's start .NET program we got when we installed .NET SDK:
 
 Open **cmd** and type following commands:
 
-**dotnet**
-
 {% tabs %}
 {% tab title="Command" %}
 ```text
@@ -35,7 +33,7 @@ path-to-application:
 ```
 {% endtab %}
 
-{% tab title="Explanation" %}
+{% tab title="Info" %}
 ```
 
 ```
@@ -96,8 +94,6 @@ provides with useful information if we need to troubleshoot our environment
 ```
 {% endtab %}
 {% endtabs %}
-
-**dotnet --help :** provides with different SDK commands that are available with .NET
 
 {% tabs %}
 {% tab title="Command" %}
@@ -166,97 +162,171 @@ Additional commands from bundled tools:
 Run 'dotnet [command] --help' for more information on a command.
 ```
 {% endtab %}
+
+{% tab title="Info" %}
+```
+Provides with different SDK commands that are available with .NET
+```
+{% endtab %}
 {% endtabs %}
 
 {% hint style="success" %}
 _**"Project** is a collection of source code files that are put together into a single application or a single library written to share code with other developers."_
 {% endhint %}
 
-* **dotnet new**
-
-  \(providing us with template options for new project with basic structure for an application with .NET CLI\)
-
-  ```text
-  C:\Development>dotnet new
-  Usage: new [options]
-
-  Options:
-    -h, --help          Displays help for this command.
-    -l, --list          Lists templates containing the specified name. If no name is specified, lists all templates.
-    -n, --name          The name for the output being created. If no name is specified, the name of the current directory is used.
-    -o, --output        Location to place the generated output.
-    -i, --install       Installs a source or a template pack.
-    -u, --uninstall     Uninstalls a source or a template pack.
-    --nuget-source      Specifies a NuGet source to use during install.
-    --type              Filters templates based on available types. Predefined values are "project", "item" or "other".
-    --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
-    --force             Forces content to be generated even if it would change existing files.
-    -lang, --language   Filters templates based on language and specifies the language of the template to create.
-    --update-check      Check the currently installed template packs for updates.
-    --update-apply      Check the currently installed template packs for update, and install the updates.
-
-
-  Templates                                         Short Name               Language          Tags
-  ----------------------------------------------------------------------------------------------------------------------------------
-  Console Application                               console                  [C#], F#, VB      Common/Console
-  Class library                                     classlib                 [C#], F#, VB      Common/Library
-  WPF Application                                   wpf                      [C#]              Common/WPF
-  WPF Class library                                 wpflib                   [C#]              Common/WPF
-  WPF Custom Control Library                        wpfcustomcontrollib      [C#]              Common/WPF
-  WPF User Control Library                          wpfusercontrollib        [C#]              Common/WPF
-  Windows Forms (WinForms) Application              winforms                 [C#]              Common/WinForms
-  Windows Forms (WinForms) Class library            winformslib              [C#]              Common/WinForms
-  Worker Service                                    worker                   [C#]              Common/Worker/Web
-  Unit Test Project                                 mstest                   [C#], F#, VB      Test/MSTest
-  NUnit 3 Test Project                              nunit                    [C#], F#, VB      Test/NUnit
-  NUnit 3 Test Item                                 nunit-test               [C#], F#, VB      Test/NUnit
-  xUnit Test Project                                xunit                    [C#], F#, VB      Test/xUnit
-  Razor Component                                   razorcomponent           [C#]              Web/ASP.NET
-  Razor Page                                        page                     [C#]              Web/ASP.NET
-  MVC ViewImports                                   viewimports              [C#]              Web/ASP.NET
-  MVC ViewStart                                     viewstart                [C#]              Web/ASP.NET
-  Blazor Server App                                 blazorserver             [C#]              Web/Blazor
-  ASP.NET Core Empty                                web                      [C#], F#          Web/Empty
-  ASP.NET Core Web App (Model-View-Controller)      mvc                      [C#], F#          Web/MVC
-  ASP.NET Core Web App                              webapp                   [C#]              Web/MVC/Razor Pages
-  ASP.NET Core with Angular                         angular                  [C#]              Web/MVC/SPA
-  ASP.NET Core with React.js                        react                    [C#]              Web/MVC/SPA
-  ASP.NET Core with React.js and Redux              reactredux               [C#]              Web/MVC/SPA
-  Razor Class Library                               razorclasslib            [C#]              Web/Razor/Library/Razor Class Library
-  ASP.NET Core Web API                              webapi                   [C#], F#          Web/WebAPI
-  ASP.NET Core gRPC Service                         grpc                     [C#]              Web/gRPC
-  dotnet gitignore file                             gitignore                                  Config
-  global.json file                                  globaljson                                 Config
-  NuGet Config                                      nugetconfig                                Config
-  Dotnet local tool manifest file                   tool-manifest                              Config
-  Web Config                                        webconfig                                  Config
-  Solution File                                     sln                                        Solution
-  Protocol Buffer File                              proto                                      Web/gRPC
-
-  Examples:
-      dotnet new mvc --auth Individual
-      dotnet new worker
-      dotnet new --help
-  ```
-
-Before creating a new project, let's first create and go to folder NewProject: **mkdir NewProject**
-
+{% tabs %}
+{% tab title="Command" %}
 ```text
-C:\Development>mkdir NewProject
-C:\Development\NewProject>cd NewPoject
+dotnet new
 ```
+{% endtab %}
 
-First we create a _**Solution**_ file: **dotnet new sln -n "NewProjectSln"**
+{% tab title="Output" %}
+```
+Usage: new [options]
 
+Options:
+  -h, --help          Displays help for this command.
+  -l, --list          Lists templates containing the specified name. If no name is specified, lists all templates.
+  -n, --name          The name for the output being created. If no name is specified, the name of the current directory is used.
+  -o, --output        Location to place the generated output.
+  -i, --install       Installs a source or a template pack.
+  -u, --uninstall     Uninstalls a source or a template pack.
+  --nuget-source      Specifies a NuGet source to use during install.
+  --type              Filters templates based on available types. Predefined values are "project", "item" or "other".
+  --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
+  --force             Forces content to be generated even if it would change existing files.
+  -lang, --language   Filters templates based on language and specifies the language of the template to create.
+  --update-check      Check the currently installed template packs for updates.
+  --update-apply      Check the currently installed template packs for update, and install the updates.
+
+
+Templates                                         Short Name               Language          Tags
+----------------------------------------------------------------------------------------------------------------------------------
+Console Application                               console                  [C#], F#, VB      Common/Console
+Class library                                     classlib                 [C#], F#, VB      Common/Library
+WPF Application                                   wpf                      [C#]              Common/WPF
+WPF Class library                                 wpflib                   [C#]              Common/WPF
+WPF Custom Control Library                        wpfcustomcontrollib      [C#]              Common/WPF
+WPF User Control Library                          wpfusercontrollib        [C#]              Common/WPF
+Windows Forms (WinForms) Application              winforms                 [C#]              Common/WinForms
+Windows Forms (WinForms) Class library            winformslib              [C#]              Common/WinForms
+Worker Service                                    worker                   [C#]              Common/Worker/Web
+Unit Test Project                                 mstest                   [C#], F#, VB      Test/MSTest
+NUnit 3 Test Project                              nunit                    [C#], F#, VB      Test/NUnit
+NUnit 3 Test Item                                 nunit-test               [C#], F#, VB      Test/NUnit
+xUnit Test Project                                xunit                    [C#], F#, VB      Test/xUnit
+Razor Component                                   razorcomponent           [C#]              Web/ASP.NET
+Razor Page                                        page                     [C#]              Web/ASP.NET
+MVC ViewImports                                   viewimports              [C#]              Web/ASP.NET
+MVC ViewStart                                     viewstart                [C#]              Web/ASP.NET
+Blazor Server App                                 blazorserver             [C#]              Web/Blazor
+ASP.NET Core Empty                                web                      [C#], F#          Web/Empty
+ASP.NET Core Web App (Model-View-Controller)      mvc                      [C#], F#          Web/MVC
+ASP.NET Core Web App                              webapp                   [C#]              Web/MVC/Razor Pages
+ASP.NET Core with Angular                         angular                  [C#]              Web/MVC/SPA
+ASP.NET Core with React.js                        react                    [C#]              Web/MVC/SPA
+ASP.NET Core with React.js and Redux              reactredux               [C#]              Web/MVC/SPA
+Razor Class Library                               razorclasslib            [C#]              Web/Razor/Library/Razor Class Library
+ASP.NET Core Web API                              webapi                   [C#], F#          Web/WebAPI
+ASP.NET Core gRPC Service                         grpc                     [C#]              Web/gRPC
+dotnet gitignore file                             gitignore                                  Config
+global.json file                                  globaljson                                 Config
+NuGet Config                                      nugetconfig                                Config
+Dotnet local tool manifest file                   tool-manifest                              Config
+Web Config                                        webconfig                                  Config
+Solution File                                     sln                                        Solution
+Protocol Buffer File                              proto                                      Web/gRPC
+
+Examples:
+    dotnet new mvc --auth Individual
+    dotnet new worker
+    dotnet new --help
+```
+{% endtab %}
+
+{% tab title="Info" %}
+```
+Providing us with template options for new project with basic structure for an application with .NET CLI)
+```
+{% endtab %}
+{% endtabs %}
+
+Before creating a new project, let's first create  NewProject folder : **mkdir NewProject**
+
+{% tabs %}
+{% tab title="Command" %}
 ```text
-C:\Development\NewProject>dotnet new sln -n "NewProjectSln"
+mkdir NewProject
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
+No output in console.
+```
+{% endtab %}
+
+{% tab title="Info" %}
+```
+creates new folder
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+cd NewPoject
+```
+{% endtab %}
+
+{% tab title="" %}
+```
+No output in console.
+```
+{% endtab %}
+
+{% tab title="Info" %}
+```
+Swithes to to folder.
+```
+{% endtab %}
+{% endtabs %}
+
+First we create a _**Solution**_ file: 
+
+{% tabs %}
+{% tab title="Command" %}
+```text
+dotnet new sln -n "NewProjectSln"
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
 The template "Solution File" was created successfully.
 ```
+{% endtab %}
 
-Let's now create a new **console** project: **dotnet new console -n "ProjectUI"**
+{% tab title="Info" %}
+```
+Crates new solution file with given name.
+```
+{% endtab %}
+{% endtabs %}
 
+Let's now create a new **Console** project
+
+{% tabs %}
+{% tab title="Command" %}
 ```text
-C:\Development\NewProject>dotnet new console -n "ProjectUI"
+dotnet new console -n "ProjectUI"
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
 The template "Console Application" was created successfully.
 
 Processing post-creation actions...
@@ -265,11 +335,26 @@ Running 'dotnet restore' on ProjectUI\ProjectUI.csproj...
 
 Restore succeeded.
 ```
+{% endtab %}
 
-Let's create a new **Class Library**: **dotnet new classlib -n "ProjectLibrary"**
+{% tab title="" %}
+```
+Creates new project of type Console with given name.
+```
+{% endtab %}
+{% endtabs %}
 
+Let's create a new **Class Library**
+
+{% tabs %}
+{% tab title="Plain Text" %}
 ```text
-C:\Development\NewProject>dotnet new classlib -n "ProjectLibrary"
+dotnet new classlib -n "ProjectLibrary"
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
 The template "Class library" was created successfully.
 
 Processing post-creation actions...
@@ -278,10 +363,18 @@ Running 'dotnet restore' on ProjectLibrary\ProjectLibrary.csproj...
 
 Restore succeeded.
 ```
+{% endtab %}
 
-Now we have to put console and class library projects, one by one,  **into our Solution file** with command:
+{% tab title="Info" %}
+```
+Creates new project of type Class Library with given name.
+```
+{% endtab %}
+{% endtabs %}
 
-Add conosle project file to solution file:
+Now we have to put console and class library projects, one by one,  **into our Solution file**:
+
+Add console project file to solution file:
 
 {% tabs %}
 {% tab title="Command" %}
@@ -328,8 +421,15 @@ We can now run VS Code to work on our project ProjectUI.csproj, from our project
 
 1. list all directories:
 
+{% tabs %}
+{% tab title="Command" %}
 ```text
 C:\Development\NewProject>dir
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
  Volume in drive C has no label.
  Volume Serial Number is 065E-2312
 
@@ -344,17 +444,19 @@ C:\Development\NewProject>dir
                2 File(s)         27,538 bytes
                4 Dir(s)  10,586,243,072 bytes free
 ```
+{% endtab %}
+{% endtabs %}
 
-2. we navigate to project folder:
+2. Navigate to project folder:
 
 ```text
-C:\Development\NewProject>cd ProjectUI
+cd ProjectUI
 ```
 
-3. we open VS Code from project folder:
+3. Open VS Code from project folder:
 
 ```text
-C:\Development\NewProject\ProjectUI>Code .
+Code .
 ```
 
 {% hint style="warning" %}
