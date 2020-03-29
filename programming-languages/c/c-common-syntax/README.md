@@ -1,6 +1,17 @@
 # C\#: Common Syntax
 
-ess
+## Main\(\): The Starting Point of a Program 
+
+Every C\# program must have one class with a method called Main. In the **SimpleProgram** program shown previously, it was declared in a class called Program. The starting point of execution of every C\# program is at the first instruction in Main. The name Main must be capitalized. 
+
+The simplest form of Main\(\) is the following: 
+
+```csharp
+static void Main() 
+{ 
+    // Statements 
+}
+```
 
 {% api-method method="get" host="https://petstore.swagger.io" path="/v2/pet/88" %}
 {% api-method-summary %}
@@ -81,5 +92,19 @@ server: Jetty(9.2.9.v20150224)
 {% endapi-method-spec %}
 {% endapi-method %}
 
+```csharp
+using System;
 
+namespace ForLoop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+```
 
