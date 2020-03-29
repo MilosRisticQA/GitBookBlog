@@ -256,22 +256,47 @@ Restore succeeded.
 
 Now we have to put console and class library projects, one by one,  **into our Solution file** with command:
 
-**dotnet sln** nameOfSolution**.sln** **add ./**fullPathOfProject**/**nameOfProject**.csproj**
+Add conosle project file to solution file:
 
+{% tabs %}
+{% tab title="Command" %}
 ```text
-C:\Development\NewProject>dotnet sln NewProjectSln.sln add ./ProjectUI/ProjectUI.csproj
-Project `ProjectUI\ProjectUI.csproj` added to the solution.
-
-C:\Development\NewProject>dotnet sln NewProjectSln.sln add ./ProjectLibrary/ProjectLibrary.csproj
-Project `ProjectLibrary\ProjectLibrary.csproj` added to the solution.
+dotnet sln NewProjectSln.sln add ./ProjectUI/ProjectUI.csproj
 ```
+{% endtab %}
+
+{% tab title="Output" %}
+    Project `ProjectUI\ProjectUI.csproj` added to the solution.
+{% endtab %}
+{% endtabs %}
+
+Add class library file to solution file:
+
+{% tabs %}
+{% tab title="Command" %}
+```text
+dotnet sln NewProjectSln.sln add ./ProjectLibrary/ProjectLibrary.csproj
+```
+{% endtab %}
+
+{% tab title="Output" %}
+    Project `ProjectLibrary\ProjectLibrary.csproj` added to the solution.
+{% endtab %}
+{% endtabs %}
 
 To reference project ProjectUI.csproj to class library ProjectLibrary.csproj do following:
 
+{% tabs %}
+{% tab title="Command" %}
 ```text
-C:\Development\NewProject>dotnet add ProjectUI/ProjectUI.csproj reference ProjectLibrary/ProjectLibrary.csproj
-Reference `..\ProjectLibrary\ProjectLibrary.csproj` added to the project.
+dotnet add ProjectUI/ProjectUI.csproj reference ProjectLibrary/ProjectLibrary.csproj
 ```
+{% endtab %}
+
+{% tab title="Output" %}
+    Reference `..\ProjectLibrary\ProjectLibrary.csproj` added to the project.
+{% endtab %}
+{% endtabs %}
 
 We can now run VS Code to work on our project ProjectUI.csproj, from our project folder ProjectUI, so we   
 
