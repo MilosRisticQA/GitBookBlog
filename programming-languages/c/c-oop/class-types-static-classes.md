@@ -1,0 +1,2 @@
+# Class types - Static Classes
+
