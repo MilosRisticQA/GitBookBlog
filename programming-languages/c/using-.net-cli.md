@@ -34,9 +34,13 @@ path-to-application:
   The path to an application .dll file to execute.
 ```
 {% endtab %}
-{% endtabs %}
 
-**dotnet --info :** provides with useful information if we need to troubleshoot our environment
+{% tab title="Explanation" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 {% tabs %}
 {% tab title="Command" %}
@@ -85,11 +89,15 @@ To install additional .NET Core runtimes or SDKs:
   https://aka.ms/dotnet-download
 ```
 {% endtab %}
+
+{% tab title="Info" %}
+```
+provides with useful information if we need to troubleshoot our environment
+```
+{% endtab %}
 {% endtabs %}
 
-**dotnet --help**
-
-\(provides with different SDK commands that are available with .NET\)
+**dotnet --help :** provides with different SDK commands that are available with .NET
 
 {% tabs %}
 {% tab title="Command" %}
