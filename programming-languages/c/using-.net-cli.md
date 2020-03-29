@@ -275,13 +275,13 @@ creates new folder
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Plain Text" %}
+{% tab title="Command" %}
 ```text
 cd NewPoject
 ```
 {% endtab %}
 
-{% tab title="" %}
+{% tab title="Output" %}
 ```
 No output in console.
 ```
