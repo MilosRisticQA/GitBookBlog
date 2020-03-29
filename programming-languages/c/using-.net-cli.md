@@ -419,12 +419,12 @@ dotnet add ProjectUI/ProjectUI.csproj reference ProjectLibrary/ProjectLibrary.cs
 We can now run VS Code to work on our project ProjectUI.csproj, from our project folder ProjectUI, so we   
 
 
-1. list all directories:
+1. list all directories from  project's main folder NewProject:
 
 {% tabs %}
 {% tab title="Command" %}
 ```text
-C:\Development\NewProject>dir
+dir
 ```
 {% endtab %}
 
