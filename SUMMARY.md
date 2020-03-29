@@ -3,7 +3,7 @@
 * [Welcome page](README.md)
 * [Curriculum vitae](curriculum-vitae.md)
 
-## Testing <a id="topics"></a>
+## Testing 🍒 <a id="topics"></a>
 
 * [Manual testing](topics/testing.md)
 * [Automation testing](topics/untitled/README.md)
@@ -22,7 +22,7 @@
     * [TestRail](topics/untitled/test-management-tools/testrail.md)
     * [JIRA](topics/untitled/test-management-tools/jira.md)
 
-## Programming languages
+## Programming languages 🍍
 
 * [C\#](programming-languages/c/README.md)
   * [Introduction to C\# and .NET](programming-languages/c/introduction-to-c-and-.net.md)
@@ -31,7 +31,7 @@
 * [JavaScript](programming-languages/javascript.md)
 * [HTML & CSS](programming-languages/html-and-css.md)
 
-## API
+## API 🍇
 
 * [SOAP](api/soap/README.md)
   * [XML](api/soap/xml.md)
@@ -40,7 +40,7 @@
 * [TOOLS](api/tools/README.md)
   * [Fiddler](api/tools/fiddler.md)
 
-## DataBases
+## DataBases 🥝
 
 * [SQL](databases/sql/README.md)
   * [SQL Server](databases/sql/sql-server.md)
@@ -48,7 +48,7 @@
 * [NOSQL](databases/nosql/README.md)
   * [MongoDB](databases/nosql/mongodb.md)
 
-## CI / CD
+## CI / CD 🍉
 
 * [Automation Servers](ci-cd/automation-servers/README.md)
   * [Jenkins](ci-cd/automation-servers/jenkins.md)
@@ -57,12 +57,12 @@
 * [Version Control](ci-cd/version-control/README.md)
   * [GIT](ci-cd/version-control/git.md)
 
-## Linux
+## Linux 🍋
 
 * [VS Code on Ubuntu 19.10](linux/untitled.md)
 * [Tools](linux/tools.md)
 
-## Projects
+## Projects 🥥
 
 * [Project 1](projects/project-1.md)
 
