@@ -337,7 +337,7 @@ Restore succeeded.
 ```
 {% endtab %}
 
-{% tab title="" %}
+{% tab title="Info" %}
 ```
 Creates new project of type Console with given name.
 ```
