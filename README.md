@@ -16,7 +16,7 @@ For your reference, under each section there'll be a page dedicated to resources
 
 
 
-_P.S. I hope this will help you as well, dear reader, in better understanding of how the web works._
+_P.S. I hope some of this might help you as well, dear reader, in your future projects._
 
 Sincerly,  
 M.
