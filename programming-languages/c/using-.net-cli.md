@@ -10,23 +10,31 @@ Let's start .NET program we got when we installed .NET SDK:
 
 Open **cmd** and type following commands:
 
-* **dotnet**
+**dotnet**
 
-  ```text
-  C:\Development>dotnet
+{% tabs %}
+{% tab title="Command" %}
+```text
+C:\Development>dotnet
+```
+{% endtab %}
 
-  Usage: dotnet [options]
-  Usage: dotnet [path-to-application]
+{% tab title="Output" %}
+```
+Usage: dotnet [options]
+Usage: dotnet [path-to-application]
 
-  Options:
-    -h|--help         Display help.
-    --info            Display .NET Core information.
-    --list-sdks       Display the installed SDKs.
-    --list-runtimes   Display the installed runtimes.
+Options:
+  -h|--help         Display help.
+  --info            Display .NET Core information.
+  --list-sdks       Display the installed SDKs.
+  --list-runtimes   Display the installed runtimes.
 
-  path-to-application:
-    The path to an application .dll file to execute.
-  ```
+path-to-application:
+  The path to an application .dll file to execute.
+```
+{% endtab %}
+{% endtabs %}
 
 * **dotnet --info**
 
