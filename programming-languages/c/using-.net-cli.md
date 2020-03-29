@@ -36,49 +36,72 @@ path-to-application:
 {% endtab %}
 {% endtabs %}
 
-* **dotnet --info**
+**dotnet --info**
 
-  \(provides with useful information if we need to troubleshoot our environment\)
+\(provides with useful information if we need to troubleshoot our environment\)
 
-  ```text
-  C:\Development>dotnet --info
-  .NET Core SDK (reflecting any global.json):
-   Version:   3.1.101
-   Commit:    b377529961
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+dotnet --info
+```
+{% endtab %}
 
-  Runtime Environment:
-   OS Name:     Windows
-   OS Version:  10.0.18363
-   OS Platform: Windows
-   RID:         win10-x64
-   Base Path:   C:\Program Files\dotnet\sdk\3.1.101\
+{% tab title="" %}
+```
+.NET Core SDK (reflecting any global.json):
+ Version:   3.1.101
+ Commit:    b377529961
 
-  Host (useful for support):
-    Version: 3.1.1
-    Commit:  a1388f194c
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.18363
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\3.1.101\
 
-  .NET Core SDKs installed:
-    2.1.802 [C:\Program Files\dotnet\sdk]
-    3.0.100 [C:\Program Files\dotnet\sdk]
-    3.1.101 [C:\Program Files\dotnet\sdk]
+Host (useful for support):
+  Version: 3.1.1
+  Commit:  a1388f194c
 
-  .NET Core runtimes installed:
-    Microsoft.AspNetCore.All 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
-    Microsoft.AspNetCore.All 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
-    Microsoft.AspNetCore.App 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+.NET Core SDKs installed:
+  2.1.802 [C:\Program Files\dotnet\sdk]
+  3.0.100 [C:\Program Files\dotnet\sdk]
+  3.1.101 [C:\Program Files\dotnet\sdk]
 
-  To install additional .NET Core runtimes or SDKs:
-    https://aka.ms/dotnet-download
-  ```
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.All 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 2.1.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 3.1.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+C:\Development>
+```
+{% endtab %}
+
+{% tab title="" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 * **dotnet --help**
 
