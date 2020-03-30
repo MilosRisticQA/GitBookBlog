@@ -51,8 +51,10 @@
 * [JavaScript](programming-languages/javascript.md)
 * [HTML & CSS](programming-languages/html-and-css.md)
 
-## API 🍇
+## Web API 🍇 <a id="api"></a>
 
+* [Introduction to APIs](api/introduction-to-apis.md)
+* [Web Services](api/web-services.md)
 * [SOAP](api/soap/README.md)
   * [XML](api/soap/xml.md)
 * [REST](api/rest/README.md)
