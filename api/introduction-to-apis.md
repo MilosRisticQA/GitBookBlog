@@ -33,10 +33,11 @@ APIs that are built with web technologies and that work in a similar way to the 
 * Media types are represented in an **HTTP** response's **`Content-Type`** header, and as a result, are sometimes referred to as _content types_.
 * _**Data serialization**_ provides a common way for systems to pass data to each other, with a guarantee that each system will be able to understand the data.
 
-  _**Types**:_ 
+  _\*\*\*\*_
 
-  * **XML** _**\(Extensible Markup Language\) -**_
-  * **JSON**  _**\(JavaScript Object Notation\) -**_ can represent objects, arrays, strings, and numbers
+  * _**Types**:_ 
+    * **XML** _**\(Extensible Markup Language\) -**_
+    * **JSON**  _**\(JavaScript Object Notation\) -**_ can represent objects, arrays, strings, and numbers
 
 {% tabs %}
 {% tab title="XML example" %}
