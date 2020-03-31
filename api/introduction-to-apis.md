@@ -25,10 +25,6 @@ APIs that are built with web technologies and that work in a similar way to the 
 
 ## Media Types
 
-```text
-
-```
-
 * _**Media types**_ ****describe the _**format of a response's body.**_
 * Media types are represented in an **HTTP** response's **`Content-Type`** header, and as a result, are sometimes referred to as _content types_.
 * _**Data serialization**_ provides a common way for systems to pass data to each other, with a guarantee that each system will be able to understand the data.
