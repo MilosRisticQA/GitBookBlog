@@ -252,6 +252,8 @@ Providing us with template options for new project with basic structure for an a
 {% endtab %}
 {% endtabs %}
 
+> Providing us with template options for new project with basic structure for an application with .NET CLI
+
 Before creating a new project, let's first create  NewProject folder : **mkdir NewProject**
 
 {% tabs %}
