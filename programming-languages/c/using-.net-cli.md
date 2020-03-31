@@ -247,7 +247,8 @@ Examples:
 
 {% tab title="Info" %}
 ```
-Providing us with template options for new project with basic structure for an application with .NET CLI)
+Providing us with template options for new project with basic structure 
+for an application with .NET CLI)
 ```
 {% endtab %}
 {% endtabs %}
@@ -297,6 +298,8 @@ Swithes to to folder.
 {% endtabs %}
 
 First we create a _**Solution**_ file: 
+
+> A [_Solution_ ](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)is a structure for organizing projects in Visual Studio.[🔗 ](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)
 
 {% tabs %}
 {% tab title="Command" %}
