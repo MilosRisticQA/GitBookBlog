@@ -299,7 +299,7 @@ Swithes to to folder.
 
 First we create a _**Solution**_ file: 
 
-> _A_ [_Solution_ ](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)_is a structure for organizing projects in Visual Studio._[\_\_🔗 __](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)\_\_
+> \_\_ℹ _A_ [_Solution_ ](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)_is a structure for organizing projects in Visual Studio._[\_\_🔗 __](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)\_\_
 
 {% hint style="info" %}
 > _A_ [_Solution_ ](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)_is a structure for organizing projects in Visual Studio._[\_\_🔗 __](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)\_\_
