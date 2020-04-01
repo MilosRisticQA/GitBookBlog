@@ -8,11 +8,18 @@ description: Introduction
 
 ## Types
 
-Type is a **template** for creating _**data structures.**_  To create new types, C\# programs use _**type declarations.**_  A type declaration specifies following elements:
+Type is a **template** for creating _**data structures.**_  
 
-* a _**Name**_
-* a **Data structure**, to contain its _**data members**_
-* _**Behaviors**_ and _**constrains**_
+### _Types per definition:_
+
+* _**Predefined provided by C\#**_
+* _**User-defined**_
+
+To create new types, C\# programs use _**type declarations.**_  A type declaration specifies following elements:
+
+* _**The kind**_ _of type_ is being created
+* _**Name** of type_
+* _**Type members**  - name and specification of each member_
 
 _**Instantiating the type**_ is creating an actual object from the type's template:
 
@@ -50,19 +57,29 @@ class XYZ
 
 ## Main [categories ](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables)of C\# types
 
-### [_Value types_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)\_\_
+### \_\_[_Value types_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)\_\_
 
-_Variables_ of value types directly contain **data** of _value types._
+_\*\*\*\*_[_**Variables**_ ](variables-and-conditionals/basic-variables.md)of value types directly contain **data** of _value types._
+
+| Predefined types | User-defined types |
+| :--- | :--- |
+| sbyte / byte | struct |
+| short / ushort | enum |
+| int / uint |  |
+| long / ulong |  |
+| bool |  |
 
 ### [_Reference types_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)\_\_
 
-_Variables_ of reference types store **references to data** of ****_reference types_ \(known as objects\).
+_**Variables**_ of reference types store **references to data** of ****_reference types_ \(known as objects\).
 
-|  | Predefined types | User-defined types |
-| :--- | :--- | :--- |
-| _**VALUE TYPES**_ | sbyte / byte | struct |
-|  | short / ushort | enum |
-|  | int / uint |  |
-|  | long / ulong |  |
-|  | bool |  |
+| Predefined types | User-defined types |
+| :--- | :--- |
+| float | _**class**_ |
+| double | _**interface**_ |
+| char | _**delegate**_ |
+| decimal | _**array**_ |
+| object  |  |
+| string |  |
+| dynamic |  |
 
