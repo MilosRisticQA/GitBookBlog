@@ -52,7 +52,9 @@ class XYZ
 
 ### [_Value types_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)\_\_
 
+_Variables_ of value types directly contain **data** of _value types._
+
 ### [_Reference types_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)\_\_
 
-
+_Variables_ of reference types store **references to data** of ****_reference types_ \(known as objects\).
 
