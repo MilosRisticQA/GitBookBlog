@@ -20,8 +20,8 @@ _**Instantiating the type**_ is creating an actual object from the type's templa
 Types can store:
 
 * **single** data item: Simple types
-* _**multiple**_ data items of the same type - individual data items are called _**Elements**_
-* _**multiple**_ data items of many different types - individual data items are called _**Members**_
+* **multiple** data items of _the same type_ - individual data items are called _**Elements**_ referenced by _numbers_
+* **multiple** data items of _many different types_ - individual data items are called _**Members**_ referenced by _names_
 
 
 
