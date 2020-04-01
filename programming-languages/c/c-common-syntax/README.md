@@ -1,110 +1,27 @@
+---
+description: Introduction
+---
+
 # C\#: Common Syntax
 
-## Main\(\): The Starting Point of a Program 
+> _C\# program is a related set of **type declarations**._
 
-Every C\# program must have one class with a method called Main. In the **SimpleProgram** program shown previously, it was declared in a class called Program. The starting point of execution of every C\# program is at the first instruction in Main. The name Main must be capitalized. 
+Type is a **template** for creating _**data structures. It is defined by the following elements:**_
 
-The simplest form of Main\(\) is the following: 
+* a _**Name**_
+* a Data structure to contain its _**data members**_
+* _**Behaviors**_ and _**constrains**_
 
-```csharp
-static void Main() 
-{ 
-    // Statements 
-}
-```
+_**Instantiating the type**_ is creating an actual object from the type's template:
 
-{% api-method method="get" host="https://petstore.swagger.io" path="/v2/pet/88" %}
-{% api-method-summary %}
-Find pet by ID
-{% endapi-method-summary %}
+* The object created by instantiating a type is called either an _**Object** of the type_ or an _**Instance** of the type._
+* _Every data item_ is an **instance of some type** provided by: the language; the BCL \(Base Class Library\) or another library; or defined by the programmer.
 
-{% api-method-description %}
-Returns a single pet
-{% endapi-method-description %}
+Types can store:
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="petId" type="integer" required=true %}
-ID of pet to return
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+* **single** data item: Simple types
+* _**multiple**_ data items of the same type - individual data items are called _**Elements**_
+* _**multiple**_ data items of many different types - individual data items are called _**Members**_
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Successful operation
-{% endapi-method-response-example-description %}
 
-```css
-{
-  "id": 0,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Invalid ID supplied
-{% endapi-method-response-example-description %}
-
-{% tabs %}
-{% tab title="Response body" %}
-```
-{
-  "code": 1,
-  "type": "error",
-  "message": "Pet not found"
-}
-```
-{% endtab %}
-
-{% tab title="Response Headers" %}
-```
- access-control-allow-headers: Content-Type, api_key, Authorization 
-access-control-allow-methods: GET, POST, DELETE, PUT 
-access-control-allow-origin: * 
-connection: close 
-content-type: application/json 
-date: Sun, 29 Mar 2020 14:39:01 GMT 
-server: Jetty(9.2.9.v20150224) 
-```
-{% endtab %}
-{% endtabs %}
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-```csharp
-using System;
-
-namespace ForLoop
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
-
-```
 
