@@ -58,3 +58,11 @@ _Variables_ of value types directly contain **data** of _value types._
 
 _Variables_ of reference types store **references to data** of ****_reference types_ \(known as objects\).
 
+|  | Predefined types | User-defined types |
+| :--- | :--- | :--- |
+| _**VALUE TYPES**_ | sbyte / byte | struct |
+|  | short / ushort | enum |
+|  | int / uint |  |
+|  | long / ulong |  |
+|  | bool |  |
+
