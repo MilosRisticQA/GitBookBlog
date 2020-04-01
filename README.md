@@ -2,7 +2,7 @@
 description: 'Every guest has to be properly welcomed, won''t you agree? :)'
 ---
 
-# Welcome page
+# Welcome page 👋
 
 This tiny space on the web will be mainly focused on automation testing practices and solutions based on diverse resources such as blogs, books, video courses, podcasts and wise advice I got from professional developers I've been lucky to meet.
 
