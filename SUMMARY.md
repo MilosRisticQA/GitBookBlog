@@ -28,7 +28,7 @@
   * [Introduction to C\# and .NET](programming-languages/c/introduction-to-c-and-.net.md)
   * [Setting up VS Code for C\#](programming-languages/c/setting-up-vs-code-for-c.md)
   * [Creating project with .NET CLI](programming-languages/c/using-.net-cli.md)
-  * [C\#: Common Syntax](programming-languages/c/c-common-syntax/README.md)
+  * [C\#: Basics](programming-languages/c/c-common-syntax/README.md)
     * [Variables and Conditionals](programming-languages/c/c-common-syntax/variables-and-conditionals/README.md)
       * [Basic Variables](programming-languages/c/c-common-syntax/variables-and-conditionals/basic-variables.md)
       * [Conditionals](programming-languages/c/c-common-syntax/variables-and-conditionals/conditionals.md)

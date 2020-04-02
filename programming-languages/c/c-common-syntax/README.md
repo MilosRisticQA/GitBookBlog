@@ -2,7 +2,7 @@
 description: Introduction
 ---
 
-# C\#: Common Syntax
+# C\#: Basics
 
 > _C\# program is a related set of **type declarations**._
 
