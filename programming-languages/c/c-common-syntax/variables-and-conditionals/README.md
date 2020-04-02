@@ -11,13 +11,21 @@ A variable is a name that represents data stored in memory during program execut
 | **Parameter** | A temporary variable used to pass data from one method to another method. Not a member of a type. |
 | **Array element** | One member of a sequenced collection of \(usually\) homogeneous data items. Can be **either local or a member of a type.** |
 
-### Declaring a variable
+## Variable declarations
 
+{% hint style="warning" %}
+A variable must be declared before it can be used. 
+{% endhint %}
 
+The variable declaration defines the variable and accomplishes two things. • It gives the variable a name and associates a type with it. • It allows the compiler to allocate memory for it. 
 
+A simple variable declaration requires at least a type and a name:
 
+```csharp
+int number;     // variable named "number", of value type integer
+```
 
-
+.. where "number" is _**THE IDENTIFIER**_ for our variable.
 
 
 
