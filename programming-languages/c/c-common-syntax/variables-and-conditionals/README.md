@@ -11,7 +11,7 @@ A variable is a name that represents data stored in memory during program execut
 | **Parameter** | A temporary variable used to pass data from one method to another method. Not a member of a type. |
 | **Array element** | One member of a sequenced collection of \(usually\) homogeneous data items. Can be **either local or a member of a type.** |
 
-## Variable declarations
+## **Variable D**eclarations
 
 {% hint style="warning" %}
 A variable must be declared before it can be used. 
@@ -27,7 +27,15 @@ int number;     // variable named "number", of value type integer
 
 .. where "number" is _**THE IDENTIFIER**_ for our variable.
 
+## Variable Initializers
 
+A variable initializer consists of an **equal sign `=`** followed by the **initializing value** so we can use the declaration to initialize its memory to a specific value:
+
+```csharp
+int number = 5;    // "= 5" is initializer
+```
+
+Local variables without initializers have an undefined value and cannot be used until they have been assigned a value. Attempting to use an undefined local variable causes the compiler to produce an error message.
 
 
 
