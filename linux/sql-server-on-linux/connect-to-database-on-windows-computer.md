@@ -63,7 +63,7 @@ _**Prerequisites:**_
 Until setup has been found to authorize Linux machine to have access through Windows firewall, _**for now turn off Windows firewall**_ to be able to establish connection.
 {% endhint %}
 
-### 3. Connect by using VS Code
+### 3. Connect from Linux by using VS Code
 
 
 
