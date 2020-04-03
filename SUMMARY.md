@@ -65,7 +65,8 @@
 ## DataBases 🥝
 
 * [SQL](databases/sql/README.md)
-  * [SQL Server](databases/sql/sql-server.md)
+  * [SQL Server](databases/sql/sql-server/README.md)
+    * [Connecting to the Database Engine locally](databases/sql/sql-server/connecting-to-the-database-engine-locally.md)
   * [MySQL](databases/sql/mysql.md)
 * [NOSQL](databases/nosql/README.md)
   * [MongoDB](databases/nosql/mongodb.md)
