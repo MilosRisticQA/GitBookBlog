@@ -78,5 +78,5 @@ Until setup has been found to authorize Linux machine to have access through Win
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-
+ 
 
