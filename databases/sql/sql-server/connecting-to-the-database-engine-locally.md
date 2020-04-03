@@ -1,4 +1,4 @@
-# Connecting to the Database Engine
+# Connecting to Database Engine
 
 ## Installation
 

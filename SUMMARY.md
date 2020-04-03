@@ -66,7 +66,7 @@
 
 * [SQL](databases/sql/README.md)
   * [SQL Server](databases/sql/sql-server/README.md)
-    * [Connecting to the Database Engine](databases/sql/sql-server/connecting-to-the-database-engine-locally.md)
+    * [Connecting to Database Engine](databases/sql/sql-server/connecting-to-the-database-engine-locally.md)
     * [Connect to Database locally](databases/sql/sql-server/connect-to-database-locally.md)
   * [MySQL](databases/sql/mysql.md)
 * [NOSQL](databases/nosql/README.md)
