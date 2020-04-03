@@ -9,7 +9,7 @@ _**Prerequisites:**_
    1. SQL Sever Configuration Manger _- will be installed automatically_
 2. [SQL Server Management Studio \(SSMS\)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 3. [VS Code](https://code.visualstudio.com/download)
-   1. [SQL Server \(mssql\) extension](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+   1. [SQL Server \(mssql\) extension](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) or
    2. [SQLTools - Database tools extension](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) 
 {% endhint %}
 
