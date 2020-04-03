@@ -15,7 +15,7 @@ _**Prerequisites:**_
 
 ## Steps:
 
-### 1. Setting Database engine for a remote connection
+### 1. Setting up Database engine for a remote connection
 
 #### On Windows machine:
 
