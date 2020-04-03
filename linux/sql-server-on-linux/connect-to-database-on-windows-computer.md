@@ -2,7 +2,7 @@
 description: by using VS Code
 ---
 
-# Connect to Database on Windows computer
+# Connect to Database installed on Windows computer
 
 {% hint style="warning" %}
 _**Prerequisites:**_ 
