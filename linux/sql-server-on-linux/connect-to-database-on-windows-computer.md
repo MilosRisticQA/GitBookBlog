@@ -59,6 +59,10 @@ _**Prerequisites:**_
 
 ### 2. Setting up Windows for a remote connection
 
+{% hint style="info" %}
+Until setup has been found to authorize Linux machine to have access through Windows firewall, _**for now turn off Windows firewall**_ to be able to establish connection.
+{% endhint %}
+
 ### 3. Connect by using VS Code
 
 
