@@ -13,7 +13,11 @@ _**Prerequisites:**_
    2. \_\_[_SQLTools - Database tools extension_](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) __
 {% endhint %}
 
-## Setting up Windows and Database engine for a remote connection
+## Steps:
+
+### 1. Setting Database engine for a remote connection
+
+### 2. Setting up Windows for a remote connection
 
 
 
