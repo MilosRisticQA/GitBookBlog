@@ -85,8 +85,8 @@
 
 * [VS Code on Ubuntu 19.10](linux/untitled.md)
 * [Tools](linux/tools.md)
-* [SQL Server on Linux](linux/sql-server-on-linux.md)
-* [Connect to Database on Windows computer](linux/connect-to-database-on-windows-computer.md)
+* [SQL Server on Linux](linux/sql-server-on-linux/README.md)
+  * [Connect to Database on Windows computer](linux/sql-server-on-linux/connect-to-database-on-windows-computer.md)
 
 ## Projects 🥥
 
