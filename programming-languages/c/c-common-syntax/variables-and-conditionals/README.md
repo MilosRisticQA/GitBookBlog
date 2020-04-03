@@ -37,9 +37,9 @@ A variable initializer consists of an **equal sign `=`** followed by the **initi
 int number = 5;    // "= 5" is initializer
 ```
 
-Local variables without initializers have an **undefined value and cannot be used** **until** they have been assigned a value. Attempting to use an undefined local variable causes the compiler to produce an error message.
+**Local** variables without initializers have an **undefined value and cannot be used** **until** they have been assigned a value. Attempting to use an undefined local variable causes the compiler to produce an error message.
 
-Class fields and Stuct fields, as variable types, are automatically initialized with default value.
+**Class fields** and **Struct fields**, as variable types, are **automatically initialized** with default value.
 
 
 
