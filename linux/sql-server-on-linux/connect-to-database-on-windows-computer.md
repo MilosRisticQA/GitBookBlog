@@ -65,5 +65,14 @@ Until setup has been found to authorize Linux machine to have access through Win
 
 ### 3. Connect from Linux by using VS Code
 
+* Open up VS Code and navigate to SQL Server \(mssql\) extension form the side menu
+* Click on  **`+`** to add a connection
+* Paste ADO.NET connection string as:
+
+**`SERVER=`**_`win-ip-address`_**`,1433;DATABASE=`**_`database-name`_**`;UID=`**_`login-name`_**`;PWD=`**_`your-password`_**`;`**
+
+* On the left side menu under CONNECTIONS section there should be server connection
+* Click on it to get connected.
+
 
 
