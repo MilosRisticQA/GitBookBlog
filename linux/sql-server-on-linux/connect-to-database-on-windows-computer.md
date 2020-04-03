@@ -41,6 +41,13 @@ _**Prerequisites:**_
 ![](../../.gitbook/assets/image%20%281%29.png)
 
 * Click OK.
+* Now open **SQL Server Configuration Manager** from Start menu
+* Navigate to _**SQL Server Network Configuration &gt; Protocols for SQLEXPRESS**_
+  * right click on _**TCP/IP &gt; Enable**_
+  * right click on _**TCP/IP &gt; Properties**_
+    * _**IP Addresses**_ tab &gt; **IPAII**
+      * leave _TCP Dynamic Port_ **empty**
+      * set **TCP Port** to _**1433**_
 
 ### 2. Setting up Windows for a remote connection
 
