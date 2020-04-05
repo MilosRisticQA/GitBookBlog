@@ -71,6 +71,6 @@ To successfully install Mozilla Firefox Developer Edition using terminal in Ubun
 Close the file **`Ctrl+X`** , then save by typing **`Y`** , when prompted for file name just click **`Enter`**
 
 {% hint style="info" %}
-For _**Linux commands**_ visit 👉 [page](../linux-commands.md)
+_For **Linux commands** visit_ 👉 __[_page_](../linux-commands.md)\_\_
 {% endhint %}
 
