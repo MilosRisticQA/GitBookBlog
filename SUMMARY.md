@@ -83,9 +83,10 @@
 
 ## Linux 🍋
 
+* [Linux commands](linux/linux-commands.md)
 * [VS Code on Ubuntu 19.10](linux/untitled.md)
-* [Tools](linux/tools.md)
-* [How to Install Firefox Developer Edition on Ubuntu](linux/how-to-install-firefox-developer-edition-on-ubuntu.md)
+* [Tools](linux/tools/README.md)
+  * [How to Install Firefox Developer Edition on Ubuntu](linux/tools/how-to-install-firefox-developer-edition-on-ubuntu.md)
 * [SQL Server on Linux](linux/sql-server-on-linux/README.md)
   * [Connect to Database installed on Windows computer](linux/sql-server-on-linux/connect-to-database-on-windows-computer.md)
 
