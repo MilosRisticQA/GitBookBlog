@@ -33,7 +33,7 @@ APIs that are built with web technologies and that work in a similar way to the 
 
   * _**Types**:_ 
     * **XML** _**\(Extensible Markup Language\) -**_
-    * **JSON**  _**\(JavaScript Object Notation\) -**_ can represent objects, arrays, strings, and numbers
+    * **JSON** _**\(JavaScript Object Notation\) -**_ can represent objects, arrays, strings, and numbers
 
 {% tabs %}
 {% tab title="XML example" %}
