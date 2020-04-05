@@ -1,5 +1,5 @@
 ---
-description: 'Basics of C# programming languag'
+description: 'Basics of C# programming language'
 ---
 
 # C\#
