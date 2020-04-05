@@ -4,7 +4,7 @@ To successfully install Mozilla Firefox Developer Edition using terminal in Ubun
 
 ## Steps:
 
-1. Download _Firefox Developer Edition_ from the [_official website_](https://www.mozilla.org/en-US/firefox/developer/)\_\_
+1. Download _**Firefox Developer Edition**_ ****from the [_official website_](https://www.mozilla.org/en-US/firefox/developer/)\_\_
 2. Open **Terminal**
 3. Navigate to **`Downloads`** folder
 
