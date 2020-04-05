@@ -25,7 +25,7 @@ _**Prerequisites:**_
 2.  Select **Database Engine;**
 3.  In the **Server name** box, type the name of the instance of the Database Engine. For the default instance of SQL Server, the server name is the computer name. For a named instance of SQL Server, the server name is the _&lt;computer\_name&gt;_**\**_&lt;instance\_name&gt;_, such as **ACCTG\_SRVR\SQLEXPRESS;**
 4. Click **Connect;**
-5. **Create Data Base.**
+5. **Create Database.**
 
 ## [Authorizing Additional Connections](https://docs.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-ver15#additional)
 
