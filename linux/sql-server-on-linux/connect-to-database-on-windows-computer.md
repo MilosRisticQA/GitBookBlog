@@ -19,9 +19,7 @@ _**Prerequisites:**_
 
 ## Steps:
 
-### 1. Setting up Database engine for a remote connection
-
-#### On Windows machine:
+### 1. Setting up Database engine on Windows for a remote connection
 
 * Open SSMS and _**connect**_ to Database engine
 * Under Object Explorer right click on the Database engine name &gt; _**Properties**_
