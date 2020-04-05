@@ -1,6 +1,6 @@
 # How to Install Firefox Developer Edition on Ubuntu
 
-To successfully install Mozilla Firefox Developer Edition using terminal in Linux distro do following:
+To successfully install Mozilla Firefox Developer Edition using terminal in Ubuntu Linux distro do following:
 
 ## Steps:
 
