@@ -4,7 +4,7 @@ To successfully install Mozilla Firefox Developer Edition using terminal in Linu
 
 ## Steps:
 
-1. Download _Firefox Developer Edition_ from the [official website](https://www.mozilla.org/en-US/firefox/developer/)
+1. Download _Firefox Developer Edition_ from the [_official website_](https://www.mozilla.org/en-US/firefox/developer/)\_\_
 2. Open **Terminal**
 3. Navigate to **`Downloads`** folder
 
@@ -66,5 +66,9 @@ To successfully install Mozilla Firefox Developer Edition using terminal in Linu
     export PATH=/opt/firefox/firefox:$PATH
     ```
 
-13. Close the file **`Ctrl+X`** , then save by typing **`Y`** , when prompted for file name just click **`Enter`**
+![](../.gitbook/assets/image%20%287%29.png)
+
+Close the file **`Ctrl+X`** , then save by typing **`Y`** , when prompted for file name just click **`Enter`**
+
+
 

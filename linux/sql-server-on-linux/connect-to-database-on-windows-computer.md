@@ -27,11 +27,11 @@ _**Prerequisites:**_
 * Under Object Explorer right click on the Database engine name &gt; _**Properties**_
 * Under _**Security page**_ make sure for Server authentication that _**"SQL Server and Windows Authentication mode" is checked**_
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 * Under Connections page **check** _"Allow remote connection to this server"_ **checkbox** and click **OK**
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 * Under Object Explorer navigate to _**Security &gt; Logins**_
   * right click on targeted _**Login &gt; Properties**_
