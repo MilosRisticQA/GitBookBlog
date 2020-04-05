@@ -5,7 +5,7 @@ description: by using VS Code
 # Connect to Database installed on Windows computer
 
 {% hint style="info" %}
-_To see how to connect to Database from VS Code within Windows, visit_ [_Connect to Database locally page_](../../databases/sql/sql-server/connect-to-database-locally.md)\_\_
+_To see how to connect to Database from VS Code within Windows_ 👉 [_Connect to Database locally page_](../../databases/sql/sql-server/connect-to-database-locally.md)\_\_
 {% endhint %}
 
 {% hint style="warning" %}
