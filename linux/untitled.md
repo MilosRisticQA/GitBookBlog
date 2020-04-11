@@ -1,6 +1,6 @@
 # VS Code on Ubuntu 19.10
 
-From [**the official guide**](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910) ****do following:
+Check 👉 [**the official guide**](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910) ****for the following:
 
 ### Step 1. Register Microsoft key and feed <a id="register-microsoft-key-and-feed"></a>
 
@@ -30,7 +30,7 @@ sudo apt-get update
 sudo apt-get install dotnet-sdk-3.1
 ```
 
-### Step 3. Download [VS Code](https://code.visualstudio.com/download) 
+### Step 3. Download 👉 [VS Code](https://code.visualstudio.com/download) 
 
 For our version of Linux distribution choose _**.deb 64 bit**_ package and install it
 
