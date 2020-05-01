@@ -85,6 +85,7 @@
 
 * [Linux commands](linux/linux-commands.md)
 * [VS Code on Ubuntu 19.10](linux/untitled.md)
+* [Test framework in VS Code](linux/test-framework-in-vs-code.md)
 * [Tools](linux/tools/README.md)
   * [How to Install Firefox Developer Edition on Ubuntu](linux/tools/how-to-install-firefox-developer-edition-on-ubuntu.md)
 * [SQL Server on Linux](linux/sql-server-on-linux/README.md)

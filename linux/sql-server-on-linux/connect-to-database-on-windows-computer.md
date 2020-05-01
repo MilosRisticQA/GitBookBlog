@@ -29,7 +29,7 @@ _**Prerequisites:**_
 
 * Under Connections page **check** _"Allow remote connection to this server"_ **checkbox** and click **OK**
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 * Under Object Explorer navigate to _**Security &gt; Logins**_
   * right click on targeted _**Login &gt; Properties**_
