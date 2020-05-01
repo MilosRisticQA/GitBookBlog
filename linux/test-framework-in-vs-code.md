@@ -19,17 +19,17 @@ Prerequisites:
 
 #### Step 2: Create a new directory for the project and navigate to it
 
-```bash
+```csharp
 mkdir NUnitBDDFramework
 ```
 
-```bash
+```csharp
 cd NUnitBDDFramework
 ```
 
 #### Step 3: Launch VS Code in the current directory
 
-```bash
+```csharp
 code .
 ```
 
@@ -37,7 +37,7 @@ code .
 
 #### Step 5: Create a new project with name NUnitBDDProject
 
-```bash
+```csharp
 dotnet new nunit --name NUnitBDDProject
 ```
 
@@ -45,7 +45,7 @@ dotnet new nunit --name NUnitBDDProject
 
 {% tabs %}
 {% tab title="Command" %}
-```bash
+```csharp
 dotnet new sln --name ProjectSolution
 ```
 {% endtab %}
@@ -61,7 +61,7 @@ dotnet new sln --name ProjectSolution
 
 {% tabs %}
 {% tab title="Command" %}
-```bash
+```csharp
 dotnet sln add NUnitBDDProject
 ```
 {% endtab %}
@@ -71,7 +71,33 @@ dotnet sln add NUnitBDDProject
 {% endtab %}
 {% endtabs %}
 
-![Until now this is how the framework should look like](../.gitbook/assets/image%20%289%29.png)
+![Until now this is how the framework should look like](../.gitbook/assets/image%20%2811%29.png)
 
+Note: When VSCode promt you to add missing assets to build and devug, click Yes and **.vscode** folder will be added to the framework.
 
+![](../.gitbook/assets/image%20%2810%29.png)
+
+## Installing dependencies
+
+{% hint style="info" %}
+_To install **NuGet** **packages** hit **F1** to open menu and choose **NuGet Package Manager: Add package** and search for package_
+{% endhint %}
+
+![F1 and the menu](../.gitbook/assets/image.png)
+
+![Enter package name to search for](../.gitbook/assets/image%20%2812%29.png)
+
+{% hint style="info" %}
+_To install **NuGet packages** from the terminal:_
+
+**`dotnet  add`**`Project-folder-name/Project-name.csproj`**`package`**`Package-name`
+{% endhint %}
+
+#### Step 1: Add NUnit3TestAdapter  using F1 or from the terminal \(will add latest version\)
+
+```csharp
+dotnet add NUnitBDDProject/NUnitBDDProject.csproj package Nunit3testAdapter
+```
+
+#### Step 2: package
 

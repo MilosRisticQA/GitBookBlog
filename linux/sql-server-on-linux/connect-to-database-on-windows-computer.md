@@ -25,11 +25,11 @@ _**Prerequisites:**_
 * Under Object Explorer right click on the Database engine name &gt; _**Properties**_
 * Under _**Security page**_ make sure for Server authentication that _**"SQL Server and Windows Authentication mode" is checked**_
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 * Under Connections page **check** _"Allow remote connection to this server"_ **checkbox** and click **OK**
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 * Under Object Explorer navigate to _**Security &gt; Logins**_
   * right click on targeted _**Login &gt; Properties**_
@@ -40,7 +40,7 @@ _**Prerequisites:**_
     * _db\_datawriter_
     * _**db\_owner**_
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 * Click OK.
 * Now open **SQL Server Configuration Manager** from Start menu
@@ -52,12 +52,12 @@ _**Prerequisites:**_
       * set **TCP Port** to _**1433**_
   * _**Click OK**_
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 * Navigate to ****_**SQL Server Services**_ 
   * _**select SQL Server \(SQLEXPRESS\) &gt; click Restart** from the toolbar_
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ### 2. Setting up Windows for a remote connection
 
@@ -73,12 +73,12 @@ Until setup has been found to authorize Linux machine to have access through Win
 
 **`SERVER=`**_`win-ip-address`_**`,1433;DATABASE=`**_`database-name`_**`;UID=`**_`login-name`_**`;PWD=`**_`your-password`_**`;`**
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 * On the left side menu under _**CONNECTIONS section**_ there should be added server connection
 * Click on it to get connected and run a query against your database.
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
  
 
