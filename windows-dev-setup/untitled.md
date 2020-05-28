@@ -99,8 +99,6 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [notepadplusplus](../cool-stuff/notepad++-customization.md) 🚀
 * greenshot
 
-
-
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
