@@ -1,2 +1,2 @@
-# Untitled
+# WSL 2
 

@@ -101,5 +101,5 @@
 
 ## Cool stuff
 
-* [Untitled](cool-stuff/untitled.md)
+* [WSL 2](cool-stuff/untitled.md)
 

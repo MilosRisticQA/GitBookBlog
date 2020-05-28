@@ -141,7 +141,7 @@ _The list of packages I installed  👉   &lt;link&gt;_
 
 ## WSL2 and Ubuntu
 
-To be able to run Ubuntu under Windows, first we need to enable _**Windows Subsystem for Linux**_ _\(WSL2\):_
+To be able to run Ubuntu under Windows, first we need to enable [_**Windows Subsystem for Linux**_ _\(WSL2\)_](../cool-stuff/untitled.md)_:_
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
