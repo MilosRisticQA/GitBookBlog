@@ -4,5 +4,121 @@
 
 Go to Microsoft Store and install Windows Terminal.
 
+## Windows Package Manager - Chocolatey
+
+* Go to [https://chocolatey.org/install](https://chocolatey.org/install)
+* Open Windows Terminal as admin:
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+Set-ExecutionPolicy AllSigned
+Get-ExecutionPolicy
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
+
+AllSigned
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
+Getting latest version of the Chocolatey package for download.
+Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.
+Downloading 7-Zip commandline tool prior to extraction.
+Extracting C:\Users\Laptop\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to C:\Users\Laptop\AppData\Local\Temp\chocolatey\chocInstall...
+Installing chocolatey on this machine
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+WARNING: You can safely ignore errors related to missing log files when
+  upgrading from a version of Chocolatey less than 0.9.9.
+  'Batch file could not be found' is also safe to ignore.
+  'The system cannot find the file specified' - also safe.
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at
+'C:\Users\Laptop\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+choco
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
+Chocolatey v0.10.15
+Please run 'choco -?' or 'choco <command> -?' for help menu.
+```
+{% endtab %}
+{% endtabs %}
+
+## Browsers
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+choco install googlechrome firefox
+```
+{% endtab %}
+{% endtabs %}
+
+{% embed url="https://www.mozilla.org/en-US/firefox/developer/" %}
+
+## Make Backup of installed choco packages for re-use
+
+{% tabs %}
+{% tab title="Run" %}
+```text
+choco install choco-package-list-backup
+```
+{% endtab %}
+{% endtabs %}
+
+This will create a Folder with 3 files: 
+
+* AllProgramsList - a list of all installed Windows programs \(by Chocolatey or not\)
+* choco-package-list-backup.config - to customize your backups
+* packages.config - a list of all installed Windows programs _**by Chocolatey**_
+
+_**To re-install your Chocolatey packages:**_
+
+1. _Open **Windows Terminal** as admin_
+2. _Navigate to ****C:\Users\**&lt;username&gt;**\Documents\ChocolateyPackageListBackup_
+3. _Run:_ ****`CHOCO INSTALL PACKAGES.CONFIG -Y`
+
 
 
