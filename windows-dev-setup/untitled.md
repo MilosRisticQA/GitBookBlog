@@ -162,9 +162,24 @@ _**First, let's update Ubuntu:**_
 
 ```text
 sudo apt-get update
+sudo apt-get upgrade
 ```
 
 Now, let's install _**Z-shell \(ZSH\):**_
 
-_\*\*\*\*_
+```text
+sudo apt-get install zsh
+```
+
+To help manage ZSH, let's install [_**Oh My Zsh**_](https://github.com/ohmyzsh/ohmyzsh) _****_by using _**curl command:**_
+
+```text
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+![](../.gitbook/assets/image%20%2815%29.png)
+
+How about customizing our zsh-terminal?
+
+
 
