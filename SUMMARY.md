@@ -102,4 +102,5 @@
 ## Cool stuff
 
 * [WSL 2](cool-stuff/untitled.md)
+* [Notepad++ customization](cool-stuff/notepad++-customization.md)
 
