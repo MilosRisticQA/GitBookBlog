@@ -147,5 +147,24 @@ To be able to run Ubuntu under Windows, first we need to enable [_**Windows Subs
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
-After System reboot, go to Microsoft Store and get Ubuntu 20.04 LTS
+After System reboot, go to Microsoft Store and get Ubuntu 20.04 LTS.
+
+Launch Ubuntu and
+
+* Enter new UNIX username \(hint: to avoid warning regarding regular expression use only lowercase letter\)
+* Enter new password
+
+## Windows Terminal, ZSH and Ubuntu
+
+Open Windows Terminal and in tabs, from the drop-down menu, choose Ubuntu 20.04.
+
+_**First, let's update Ubuntu:**_ 
+
+```text
+sudo apt-get update
+```
+
+Now, let's install _**Z-shell \(ZSH\):**_
+
+_\*\*\*\*_
 
