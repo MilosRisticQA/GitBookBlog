@@ -121,7 +121,7 @@ choco install choco-package-list-backup
 {% endtab %}
 {% endtabs %}
 
-This will create a folder C:\Users\&lt;username&gt;\Documents\ChocolateyPackageListBackup with 3 files: 
+This will create a folder under _`C:\Users\<username>\Documents\ChocolateyPackageListBackup`_ with 3 files: 
 
 * **AllProgramsList** - a list of all installed Windows programs \(by Chocolatey or not\)
 * **choco-package-list-backup.config** - to customize your backups
@@ -134,7 +134,7 @@ This will create a folder C:\Users\&lt;username&gt;\Documents\ChocolateyPackageL
 3. _Run:_ ****`CHOCO INSTALL PACKAGES.CONFIG -Y`
 
 {% hint style="info" %}
-_The list of packages I installed  👉   &lt;link&gt;_
+_The list of packages I installed  you can download from   &lt;link&gt;_
 {% endhint %}
 
 ## WSL2 and Ubuntu
@@ -149,7 +149,7 @@ After System reboot, go to Microsoft Store and get Ubuntu 20.04 LTS.
 
 Launch Ubuntu and
 
-* Enter new UNIX username \(hint: to avoid warning regarding regular expression use only lowercase letter\)
+* Enter new UNIX username _\(**hint:** to avoid warning regarding regular expression use only lowercase letters\)_
 * Enter new password
 
 ## Windows Terminal, ZSH and Ubuntu
