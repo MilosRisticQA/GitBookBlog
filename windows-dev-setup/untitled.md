@@ -96,7 +96,7 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 
 ### Tools
 
-* notepadplusplus
+* notepadplusplus  \[ see how to customize  🚀\]
 * greenshot
 
 
