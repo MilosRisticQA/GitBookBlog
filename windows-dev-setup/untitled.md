@@ -1,10 +1,12 @@
 # Basics
 
-## Windows Terminal
+## Software and tools
+
+### Windows Terminal
 
 Go to Microsoft Store and install Windows Terminal.
 
-## Windows Package Manager - Chocolatey
+### Windows Package Manager - Chocolatey
 
 * Go to [https://chocolatey.org/install](https://chocolatey.org/install)
 * Open Windows Terminal as admin:
@@ -86,17 +88,30 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 {% endtab %}
 {% endtabs %}
 
-## Browsers
+### Browsers
+
+* Chrome
+* Firefox
+* Firefox Dev
+
+### Tools
+
+* notepadplusplus
+* greenshot
+
+
 
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
-choco install googlechrome firefox
+choco install googlechrome firefox notepadplusplus
 ```
 {% endtab %}
 {% endtabs %}
 
 {% embed url="https://www.mozilla.org/en-US/firefox/developer/" %}
+
+
 
 ## Make Backup of installed choco packages for re-use
 
@@ -108,17 +123,29 @@ choco install choco-package-list-backup
 {% endtab %}
 {% endtabs %}
 
-This will create a Folder with 3 files: 
+This will create a folder C:\Users\&lt;username&gt;\Documents\ChocolateyPackageListBackup with 3 files: 
 
-* AllProgramsList - a list of all installed Windows programs \(by Chocolatey or not\)
-* choco-package-list-backup.config - to customize your backups
-* packages.config - a list of all installed Windows programs _**by Chocolatey**_
+* **AllProgramsList** - a list of all installed Windows programs \(by Chocolatey or not\)
+* **choco-package-list-backup.config** - to customize your backups
+* **packages.config** - a list of all installed Windows programs _**by Chocolatey**_
 
-_**To re-install your Chocolatey packages:**_
+### _**To re-install your Chocolatey packages:**_
 
 1. _Open **Windows Terminal** as admin_
 2. _Navigate to ****C:\Users\**&lt;username&gt;**\Documents\ChocolateyPackageListBackup_
 3. _Run:_ ****`CHOCO INSTALL PACKAGES.CONFIG -Y`
 
+{% hint style="info" %}
+_The list of packages I installed  👉   &lt;link&gt;_
+{% endhint %}
 
+## WSL2 and Ubuntu
+
+To be able to run Ubuntu under Windows, first we need to enable _**Windows Subsystem for Linux**_ _\(WSL2\):_
+
+![](../.gitbook/assets/image%20%2814%29.png)
+
+![](../.gitbook/assets/image%20%2813%29.png)
+
+After System reboot, go to Microsoft Store and get Ubuntu 20.04 LTS
 

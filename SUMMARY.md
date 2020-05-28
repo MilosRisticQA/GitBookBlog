@@ -99,3 +99,7 @@
 
 * [Basics](windows-dev-setup/untitled.md)
 
+## Cool stuff
+
+* [Untitled](cool-stuff/untitled.md)
+
