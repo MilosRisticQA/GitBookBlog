@@ -66,7 +66,7 @@ To successfully install Mozilla Firefox Developer Edition using terminal in Ubun
     export PATH=/opt/firefox/firefox:$PATH
     ```
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 Close the file **`Ctrl+X`** , then save by typing **`Y`** , when prompted for file name just click **`Enter`**
 
