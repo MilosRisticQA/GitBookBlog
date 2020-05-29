@@ -179,5 +179,24 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 How about customizing our zsh-terminal?
 
+We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first [_Meslo Nerd Font patched for Powerlevel10k_](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) _._
 
+When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "MesloLGS NF"` to your profile**s** like: 
+
+![Adding font style to Windows Terminal config](../.gitbook/assets/image%20%2818%29.png)
+
+_Next,_ we need to install Powerlevel10k itself with these commands:
+
+```text
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+```
+
+When done, reopen Windows Terminal and you should be presented with Configuration wizard as on the image below
+
+![](../.gitbook/assets/image%20%2817%29.png)
+
+In Ubuntu Terminal type `nano ~/.zshrc` to open zsh config
+
+![Zsh config](../.gitbook/assets/image%20%2816%29.png)
 
