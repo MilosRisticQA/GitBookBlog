@@ -177,13 +177,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-How about customizing our zsh-terminal?
+How about customizing our zsh-terminal to look like
+
+image here of the terminal
 
 We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first [_Meslo Nerd Font patched for Powerlevel10k_](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) _._
 
 When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "MesloLGS NF"` to your profile**s** like: 
 
-![Adding font style to Windows Terminal config](../.gitbook/assets/image%20%2818%29.png)
+![Adding font style to Windows Terminal config](../.gitbook/assets/image%20%2819%29.png)
 
 _Next,_ we need to install Powerlevel10k itself with these commands:
 
@@ -194,7 +196,48 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
 When done, reopen Windows Terminal and you should be presented with Configuration wizard as on the image below
 
+![](../.gitbook/assets/image%20%2818%29.png)
+
+To make it look just like mine, choose:
+
+* Prompt Style: 3
+* Character Set: 1
+* Show current time?: 2
+* Prompt Separators: 1
+* Prompt Heads: 1
+* Prompt Tails: 2
+* Prompt Height: 1 
+* Prompt Spacing: 1
+* Icons: 2
+* Prompt Flow: 1
+* Enable Transient Prompt?: n
+* Instant Prompt Mode: 3
+
+Of course, we will change the color scheme of out terminal, so do as follows:
+
+* Go to [terminalsplash ](https://terminalsplash.com/)website and choose  _**VSCode Theme for Windows Terminalby:**_ [_adstep_](https://github.com/adstep) __
+* Copy _the code_ and paste it into Windows Terminal .json settings file by adding it into _**`// Add custom color schemes to this array.`**_ section, with `"name" : "VSCode",` so you can use it as colorScheme for your profiles, as shown:
+
 ![](../.gitbook/assets/image%20%2817%29.png)
+
+And, one final touch should be adding Ubuntu logo gif in the bottom right corner of out terminal.
+
+Download this one and save it with name _**ubuntuLogo.gif**_  to _**C:\Users\Desktop\Pictures\Icons**_ 
+
+![](../.gitbook/assets/ubuntulogo.gif)
+
+Now, simple add these lines to Settings.json file
+
+```text
+"backgroundImage" : "C:/Users/Laptop/Pictures/Icons/ubuntuLogo.gif",
+"backgroundImageStretchMode" : "none",
+"backgroundImageAlignment" : "bottomRight",
+"backgroundImageOpacity": 0.7
+```
+
+_Note that we've changed backslashes with **forward slashes** for our image location!_
+
+\_\_
 
 In Ubuntu Terminal type `nano ~/.zshrc` to open zsh config
 
