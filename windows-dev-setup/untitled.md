@@ -131,7 +131,7 @@ This will create a folder under _`C:\Users\<username>\Documents\ChocolateyPackag
 
 ### _**To re-install your Chocolatey packages:**_
 
-1. _Open **Windows Terminal** as admin_
+1. _Open **Windows Terminal - PowerShell** as admin_
 2. _Navigate to ****C:\Users\**&lt;username&gt;**\Documents\ChocolateyPackageListBackup_
 3. _Run:_ ****`CHOCO INSTALL PACKAGES.CONFIG -Y`
 
@@ -311,5 +311,108 @@ Finally, let make our folders and files listing more cool:
 For other customization related to **colorls** visit [github page](https://github.com/athityakumar/colorls)
 {% endhint %}
 
+## Node.js
 
+First we'll install Node Version Manager \(nvm\) under Ubuntu:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+Open zshconfig and, if not already added, do add these lines at the end of Settings.json file:
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" #This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" #This loads nvm bash_completion
+```
+
+Or, we can install the nvm [for Zsh](https://github.com/lukechilds/zsh-nvm#manually) plugin, run:
+
+```csharp
+git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+```
+
+Open **zshconfig** and add **nvm** to plugin list. Save changes, reopen terminal.
+
+To check if installed properly:
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+nvm
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```text
+Node Version Manager (v0.35.3)
+
+Note: <version> refers to any version-like string nvm understands. This includes:
+  - full or partial version numbers, starting with an optional "v" (0.10, v0.1.2, v1)
+  - default (built-in) aliases: node, stable, unstable, iojs, system
+  - custom aliases you define with `nvm alias foo`
+
+ Any options that produce colorized output should respect the `--no-colors` option.
+
+Usage:
+  nvm --help                                Show this message
+  nvm --version                             Print out the installed version of nvm
+  nvm install [-s] <version>                Download and install a <version>, [-s] from source. Uses .nvmrc if available
+    --reinstall-packages-from=<version>     When installing, reinstall packages installed in <node|iojs|node version number>
+    --lts                                   When installing, only select from LTS (long-term support) versions
+    --lts=<LTS name>                        When installing, only select from versions for a specific LTS line
+    --skip-default-packages                 When installing, skip the default-packages file if it exists
+    --latest-npm                            After installing, attempt to upgrade to the latest working npm on the given node version
+    --no-progress                           Disable the progress bar on any downloads
+  nvm uninstall <version>                   Uninstall a version
+  nvm uninstall --lts                       Uninstall using automatic LTS (long-term support) alias `lts/*`, if available.
+  nvm uninstall --lts=<LTS name>            Uninstall using automatic alias for provided LTS line, if available.
+  nvm use [--silent] <version>              Modify PATH to use <version>. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm exec [--silent] <version> [<command>] Run <command> on <version>. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm run [--silent] <version> [<args>]     Run `node` on <version> with <args> as arguments. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm current                               Display currently activated version of Node
+  nvm ls [<version>]                        List installed versions, matching a given <version> if provided
+    --no-colors                             Suppress colored output
+    --no-alias                              Suppress `nvm alias` output
+  nvm ls-remote [<version>]                 List remote versions available for install, matching a given <version> if provided
+    --lts                                   When listing, only show LTS (long-term support) versions
+    --lts=<LTS name>                        When listing, only show versions for a specific LTS line
+    --no-colors                             Suppress colored output
+  nvm version <version>                     Resolve the given description to a single local version
+  nvm version-remote <version>              Resolve the given description to a single remote version
+    --lts                                   When listing, only select from LTS (long-term support) versions
+    --lts=<LTS name>                        When listing, only select from versions for a specific LTS line
+  nvm deactivate                            Undo effects of `nvm` on current shell
+  nvm alias [<pattern>]                     Show all aliases beginning with <pattern>
+    --no-colors                             Suppress colored output
+  nvm alias <name> <version>                Set an alias named <name> pointing to <version>
+  nvm unalias <name>                        Deletes the alias named <name>
+  nvm install-latest-npm                    Attempt to upgrade to the latest working `npm` on the current node version
+  nvm reinstall-packages <version>          Reinstall global `npm` packages contained in <version> to current version
+  nvm unload                                Unload `nvm` from shell
+  nvm which [current | <version>]           Display path to installed node version. Uses .nvmrc if available
+  nvm cache dir                             Display path to the cache directory for nvm
+  nvm cache clear                           Empty cache directory for nvm
+
+Example:
+  nvm install 8.0.0                     Install a specific version number
+  nvm use 8.0                           Use the latest available 8.0.x release
+  nvm run 6.10.3 app.js                 Run app.js using node 6.10.3
+  nvm exec 4.8.3 node app.js            Run `node app.js` with the PATH pointing to node 4.8.3
+  nvm alias default 8.1.0               Set default node version on a shell
+  nvm alias default node                Always default to the latest available node version on a shell
+
+Note:
+  to remove, delete, or uninstall nvm - just remove the `$NVM_DIR` folder (usually `~/.nvm`)
+```
+{% endtab %}
+{% endtabs %}
 
