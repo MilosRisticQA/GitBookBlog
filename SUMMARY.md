@@ -59,6 +59,7 @@
   * [XML](api/soap/xml.md)
 * [REST](api/rest/README.md)
   * [JSON](api/rest/json.md)
+  * [Fake JSON Server](api/rest/fake-json-server.md)
 * [TOOLS](api/tools/README.md)
   * [Fiddler](api/tools/fiddler.md)
 

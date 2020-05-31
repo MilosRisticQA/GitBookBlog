@@ -100,11 +100,13 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [greenshot](https://getgreenshot.org/) 🚀
 * [git](https://git-scm.com/) 🚀
 * [vscode](https://code.visualstudio.com/) 🚀
+* 7zip
+* sql-server-management-studio
 
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
-choco install googlechrome firefox notepadplusplus greenshot git vscode
+choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip sql-server-management-studio
 ```
 {% endtab %}
 {% endtabs %}
