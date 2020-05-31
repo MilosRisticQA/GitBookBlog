@@ -4,8 +4,6 @@
 Prerequisites: [NodeJS installed](../../windows-dev-setup/untitled.md#node-js).
 {% endhint %}
 
-Open up VS Code and switch to WSL-Ubuntu-20.04.
-
 Open up Windows terminal -&gt; Ubuntu:
 
 * Navigate to /home/&lt;your username folder&gt;
