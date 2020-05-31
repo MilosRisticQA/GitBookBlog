@@ -286,6 +286,16 @@ _Notice bottom-left corner of VS Code indicating we're inside Ubuntu over WSL._
 
 So, from now on if we want to access to zsh config, we'll just type alias: `zshconfig`
 
+To adjust fonts in VS Code editor and integrated terminal, do as follows:
+
+* Open Settings
+* Type fonts, find Editor: Font Family
+  * type: **FiraCode NF**
+* Type terminal , find Terminal &gt; Integrated &gt; Automation Shell: Linux
+
+  * Click _**Edit in settings.json**_ link
+  * add:  `"terminal.integrated.fontFamily": "FiraCode NF"`
+
 ### Colorls
 
 Finally, let make our folders and files listing more cool:
