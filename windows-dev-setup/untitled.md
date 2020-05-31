@@ -154,7 +154,7 @@ Launch Ubuntu and
 * Enter new UNIX username _\(**hint:** to avoid warning regarding regular expression use only lowercase letters\)_
 * Enter new password
 
-### Windows Terminal, ZSH and Ubuntu
+## Windows Terminal, ZSH and Ubuntu
 
 Open Windows Terminal and in tabs, from the drop-down menu, choose Ubuntu 20.04.
 
@@ -165,7 +165,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Now, let's install _**Z-shell \(ZSH\):**_
+### _**Z-shell \(ZSH\):**_
 
 ```text
 sudo apt-get install zsh
@@ -182,6 +182,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 How about customizing our zsh-terminal to look like
 
 ![](../.gitbook/assets/image%20%2820%29.png)
+
+### Powerlevel10k
 
 We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first download and install [_Fira Code Regular Nerd Font Complete Mono Windows Compatible_](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete) __so we can also have nice [ligatures](https://github.com/tonsky/FiraCode/#whats-in-the-box).
 
@@ -215,6 +217,8 @@ To make it look just like mine, choose:
 * Enable Transient Prompt?: n
 * Instant Prompt Mode: 3
 
+### Theme
+
 Of course, we will change the color scheme of out terminal, so do as follows:
 
 * Go to [terminalsplash ](https://terminalsplash.com/)website and choose  _**VSCode Theme for Windows Terminalby:**_ [_adstep_](https://github.com/adstep) __
@@ -240,6 +244,8 @@ Now, simple add these lines to Settings.json file
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
 ![](../.gitbook/assets/image%20%2825%29.png)
+
+### Plugins
 
 Also, we will need some Oh-My-Zsh plugins, so inside Ubuntu terminal, run these commands:
 
