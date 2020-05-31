@@ -35,5 +35,9 @@ For local db run `npm run json:server`
 
 For the remote one run: `npm run json:server:remote`
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
+
+Let;s quickly check it out in Postman:
+
+![](../../.gitbook/assets/image%20%2830%29.png)
 

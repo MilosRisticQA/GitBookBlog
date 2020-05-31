@@ -101,12 +101,12 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [git](https://git-scm.com/) 🚀
 * [vscode](https://code.visualstudio.com/) 🚀
 * 7zip
-* sql-server-management-studio
+* postman
 
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
-choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip sql-server-management-studio
+choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip postman
 ```
 {% endtab %}
 {% endtabs %}
@@ -195,7 +195,7 @@ We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k
 
 When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting for all profiles like: 
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 _Next,_ we need to install **Powerlevel10k** itself with these commands:
 
@@ -249,7 +249,7 @@ Now, simple add these lines to Settings.json file
 
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 ### Plugins
 
