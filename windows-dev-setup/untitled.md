@@ -1,4 +1,4 @@
-# Basics
+# Setup
 
 ## Software and tools
 

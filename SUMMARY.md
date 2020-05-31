@@ -98,7 +98,7 @@
 
 ## Windows Dev Setup
 
-* [Basics](windows-dev-setup/untitled.md)
+* [Setup](windows-dev-setup/untitled.md)
 
 ## Cool stuff
 
