@@ -181,13 +181,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 How about customizing our zsh-terminal to look like
 
-image here of the terminal
+![](../.gitbook/assets/image%20%2820%29.png)
 
 We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first download and install [_Fira Code Regular Nerd Font Complete Mono Windows Compatible_](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete) __so we can also have nice [ligatures](https://github.com/tonsky/FiraCode/#whats-in-the-box).
 
-When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting like: 
+When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting for all profiles like: 
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 _Next,_ we need to install **Powerlevel10k** itself with these commands:
 
@@ -220,7 +220,7 @@ Of course, we will change the color scheme of out terminal, so do as follows:
 * Go to [terminalsplash ](https://terminalsplash.com/)website and choose  _**VSCode Theme for Windows Terminalby:**_ [_adstep_](https://github.com/adstep) __
 * Copy _the code_ and paste it into Windows Terminal .json settings file by adding it into _**`// Add custom color schemes to this array.`**_ section, with `"name" : "VSCode",` so you can use it as colorScheme for your profiles, as shown:
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 And, one final touch should be adding Ubuntu logo gif in the bottom right corner of out terminal.
 
@@ -239,7 +239,7 @@ Now, simple add these lines to Settings.json file
 
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 Also, we will need some Oh-My-Zsh plugins, so inside Ubuntu terminal, run these commands:
 
@@ -257,14 +257,14 @@ To access .zshrc config from now on we will use _**VSCode**_ as editor so let's 
   * git
   * zsh-syntax-highlighting
   * zsh-autosuggestions
-  * extract
+  * extract  - _extracts file from the archive type of file_
   * colored-man-pages
-  * sudo
-  * history
+  * sudo _- adding sudo at the beginning of the line if typed **Esc two times** after the command_
+  * history - _shortcut_ **`h`** _will execute history command_
   * npm
 * uncomment alias \(by removing \# in front of that line\) and change it to `zshconfig="code ~/.zshrc"`
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 * Save changes by hitting Ctrl+S.
 
@@ -273,4 +273,31 @@ _Notice bottom-left corner of VS Code indicating we're inside Ubuntu over WSL._
 {% endhint %}
 
 So, from now on if we want to access to zsh config, we'll just type alias: `zshconfig`
+
+Finally, let make our folders and files listing more cool:
+
+* `sudo apt install ruby-full`
+
+  * ruby dev dependencies:
+
+  ```text
+  sudo apt-get install -y build-essential git libreadline-dev
+  sudo apt-get install -y libssl-dev zlib1g-dev autoconf libicu-dev
+  sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3
+  sudo apt-get install -y libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+  ```
+
+* restart terminal
+* `sudo gem install colorls`
+* restart terminal
+* `zshconfig` and add lines:
+  * at the end of the config file: 
+    * source $\(dirname $\(gem which colorls\)\)/tab\_complete.sh
+  * under aliases: 
+    * alias ls="colorls --gs --tree --group-directories-first"
+    * alias ld="colorls --dirs"
+
+{% hint style="info" %}
+For other customization related to colorls visit [github page](https://github.com/athityakumar/colorls)
+{% endhint %}
 
