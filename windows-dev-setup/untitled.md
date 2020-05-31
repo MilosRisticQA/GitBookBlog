@@ -98,11 +98,13 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 
 * [notepadplusplus](../cool-stuff/notepad++-customization.md) 🚀
 * greenshot
+* git
+* vscode
 
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
-choco install googlechrome firefox notepadplusplus
+choco install googlechrome firefox notepadplusplus greenshot git vscode
 ```
 {% endtab %}
 {% endtabs %}
@@ -181,11 +183,11 @@ How about customizing our zsh-terminal to look like
 
 image here of the terminal
 
-We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first download and install [_Fira Code Regular Nerd Font Complete Mono Windows Compatible_](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete)_._
+We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first download and install [_Fira Code Regular Nerd Font Complete Mono Windows Compatible_](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete) __so we can also have nice [ligatures](https://github.com/tonsky/FiraCode/#whats-in-the-box).
 
 When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting like: 
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 _Next,_ we need to install Powerlevel10k itself with these commands:
 
@@ -218,7 +220,7 @@ Of course, we will change the color scheme of out terminal, so do as follows:
 * Go to [terminalsplash ](https://terminalsplash.com/)website and choose  _**VSCode Theme for Windows Terminalby:**_ [_adstep_](https://github.com/adstep) __
 * Copy _the code_ and paste it into Windows Terminal .json settings file by adding it into _**`// Add custom color schemes to this array.`**_ section, with `"name" : "VSCode",` so you can use it as colorScheme for your profiles, as shown:
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 And, one final touch should be adding Ubuntu logo gif in the bottom right corner of out terminal.
 
@@ -237,9 +239,36 @@ Now, simple add these lines to Settings.json file
 
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
-\_\_
+![](../.gitbook/assets/image%20%2823%29.png)
 
-In Ubuntu Terminal type `nano ~/.zshrc` to open zsh config
+Also, we will need some Oh-My-Zsh plugins, so inside Ubuntu terminal, run these commands:
 
-![Zsh config](../.gitbook/assets/image%20%2816%29.png)
+```text
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+To access .zshrc config from now on we will use VSCode as editor so let's install it:
+
+* Open Windows PowerShell tab and enter `choco install vscode` 
+* Now, back to Ubuntu tab, type `code ~/.zshrc` 
+  * Note: Since this is the first time we're running VSCode, accept _**Remote - WSL extension**_ to be installed.
+* add plugins:
+  * git
+  * zsh-syntax-highlighting
+  * zsh-autosuggestions
+  * extract
+  * colored-man-pages
+  * sudo
+  * history
+  * npm
+* uncomment alias \(by removing \# in front of that line\) and change it to `zshconfig="code ~/.zshrc"`
+
+![](../.gitbook/assets/image%20%2821%29.png)
+
+* Save changes by hitting Ctrl+S.
+
+{% hint style="info" %}
+_Notice bottom-left corner of VSCode indicating we're inside Ubuntu over WSL._
+{% endhint %}
 
