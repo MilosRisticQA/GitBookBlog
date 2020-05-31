@@ -152,7 +152,7 @@ Launch Ubuntu and
 * Enter new UNIX username _\(**hint:** to avoid warning regarding regular expression use only lowercase letters\)_
 * Enter new password
 
-## Windows Terminal, ZSH and Ubuntu
+### Windows Terminal, ZSH and Ubuntu
 
 Open Windows Terminal and in tabs, from the drop-down menu, choose Ubuntu 20.04.
 
@@ -181,11 +181,11 @@ How about customizing our zsh-terminal to look like
 
 image here of the terminal
 
-We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first [_Meslo Nerd Font patched for Powerlevel10k_](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) _._
+We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k), but first download and install [_Fira Code Regular Nerd Font Complete Mono Windows Compatible_](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete)_._
 
-When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "MesloLGS NF"` to your profile**s** like: 
+When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting like: 
 
-![Adding font style to Windows Terminal config](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 _Next,_ we need to install Powerlevel10k itself with these commands:
 
