@@ -167,6 +167,10 @@ sudo apt-get upgrade
 
 ### _**Z-shell \(ZSH\):**_
 
+How about customizing our terminal to look like
+
+![](../.gitbook/assets/image%20%2820%29.png)
+
 ```text
 sudo apt-get install zsh
 ```
@@ -178,10 +182,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 ![](../.gitbook/assets/image%20%2815%29.png)
-
-How about customizing our zsh-terminal to look like
-
-![](../.gitbook/assets/image%20%2820%29.png)
 
 ### Powerlevel10k
 
