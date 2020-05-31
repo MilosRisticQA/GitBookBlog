@@ -97,9 +97,9 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 ### Tools
 
 * [notepadplusplus](../cool-stuff/notepad++-customization.md) 🚀
-* greenshot
-* git
-* vscode
+* [greenshot](https://getgreenshot.org/) 🚀
+* [git](https://git-scm.com/) 🚀
+* [vscode](https://code.visualstudio.com/) 🚀
 
 {% tabs %}
 {% tab title="Run" %}
