@@ -416,3 +416,41 @@ Note:
 {% endtab %}
 {% endtabs %}
 
+Now we can install Node.js:
+
+* `nvm ls-remote` _- to list all versions_
+* `nvm install v14.3.0`  _- this one is the latest version_
+
+To check if all is good
+
+{% tabs %}
+{% tab title="Run" %}
+```csharp
+node -v
+```
+{% endtab %}
+
+{% tab title="Output" %}
+```
+v14.3.0
+```
+{% endtab %}
+{% endtabs %}
+
+## GIT configuration
+
+Create GitHub account on [github](https://github.com), open Ubuntu terminal and type:
+
+* `git config --global user.name "your user name here"`
+* `git config --global user.email "your email here"`
+* `ssh-keygen -t rsa -b 4096 -C "your email here"`    _- to generate ssh key_
+  * _just hit enter for all questions_
+* `eval "$(ssh-agent -s)"`   _- to run the Agent_
+* `ssh-add ~/.ssh/id_rsa`    _- to add ssh-key to file_
+* `cat ~/.ssh/id_rsa.pub`    - to print into terminal your ssh-key
+* copy that key from the terminal and go to: [https://github.com/settings/keys](https://github.com/settings/keys)
+  * click _**New SSH Key**_ button
+  * give it a name
+  * **paste** you copied ssh-key
+  * click _**Add SSH Key**_ button
+
