@@ -453,6 +453,12 @@ v14.3.0
 {% endtab %}
 {% endtabs %}
 
+At the end, let's install Node Package Manager \(npm\):
+
+```csharp
+sudo apt install npm
+```
+
 ## GIT configuration
 
 Create GitHub account on [github](https://github.com), open Ubuntu terminal and type:
