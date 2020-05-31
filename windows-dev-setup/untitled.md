@@ -274,6 +274,8 @@ _Notice bottom-left corner of VS Code indicating we're inside Ubuntu over WSL._
 
 So, from now on if we want to access to zsh config, we'll just type alias: `zshconfig`
 
+#### Colorls
+
 Finally, let make our folders and files listing more cool:
 
 * `sudo apt install ruby-full`
