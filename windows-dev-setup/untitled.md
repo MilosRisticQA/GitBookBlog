@@ -187,7 +187,7 @@ We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k
 
 When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting for all profiles like: 
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 _Next,_ we need to install **Powerlevel10k** itself with these commands:
 
@@ -239,7 +239,7 @@ Now, simple add these lines to Settings.json file
 
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Also, we will need some Oh-My-Zsh plugins, so inside Ubuntu terminal, run these commands:
 
@@ -264,7 +264,7 @@ To access .zshrc config from now on we will use _**VSCode**_ as editor so let's 
   * npm
 * uncomment alias \(by removing \# in front of that line\) and change it to `zshconfig="code ~/.zshrc"`
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 * Save changes by hitting Ctrl+S.
 
@@ -274,7 +274,7 @@ _Notice bottom-left corner of VS Code indicating we're inside Ubuntu over WSL._
 
 So, from now on if we want to access to zsh config, we'll just type alias: `zshconfig`
 
-#### Colorls
+### Colorls
 
 Finally, let make our folders and files listing more cool:
 
@@ -299,7 +299,11 @@ Finally, let make our folders and files listing more cool:
     * alias ls="colorls --gs --tree --group-directories-first"
     * alias ld="colorls --dirs"
 
+![](../.gitbook/assets/image%20%2822%29.png)
+
 {% hint style="info" %}
-For other customization related to colorls visit [github page](https://github.com/athityakumar/colorls)
+For other customization related to **colorls** visit [github page](https://github.com/athityakumar/colorls)
 {% endhint %}
+
+
 
