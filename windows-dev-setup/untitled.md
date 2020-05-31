@@ -169,7 +169,7 @@ sudo apt-get upgrade
 
 To see where are your Ubuntu's files and folders located inside Windows, navigate to root folder by typing `cd ..` and type `explorer.exe .` in your ubuntu terminal.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 ### _**Z-shell \(ZSH\):**_
 
@@ -195,7 +195,7 @@ We are going to install [Powerlevel10k](https://github.com/romkatv/powerlevel10k
 
 When done, under Windows Terminal drop-down menu navigate to Settings and add `"fontFace": "FiraCode NF"` to Settings.json as default setting for all profiles like: 
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 _Next,_ we need to install **Powerlevel10k** itself with these commands:
 
@@ -230,7 +230,7 @@ Of course, we will change the color scheme of out terminal, so do as follows:
 * Go to [terminalsplash ](https://terminalsplash.com/)website and choose  _**VSCode Theme for Windows Terminalby:**_ [_adstep_](https://github.com/adstep) __
 * Copy _the code_ and paste it into Windows Terminal .json settings file by adding it into _**`// Add custom color schemes to this array.`**_ section, with `"name" : "VSCode",` so you can use it as colorScheme for your profiles, as shown:
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 And, one final touch should be adding Ubuntu logo gif in the bottom right corner of out terminal.
 
@@ -249,7 +249,7 @@ Now, simple add these lines to Settings.json file
 
 _Note that we've changed backslashes with **forward slashes** for our image location!_
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 ### Plugins
 
@@ -276,7 +276,7 @@ To access .zshrc config from now on we will use _**VSCode**_ as editor so let's 
   * npm
 * uncomment alias \(by removing \# in front of that line\) and change it to `zshconfig="code ~/.zshrc"`
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 * Save changes by hitting Ctrl+S.
 
@@ -321,7 +321,7 @@ Finally, let make our folders and files listing more cool:
     * alias ls="colorls --gs --tree --group-directories-first"
     * alias ld="colorls --dirs"
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="info" %}
 For other customization related to **colorls** visit [github page](https://github.com/athityakumar/colorls)
