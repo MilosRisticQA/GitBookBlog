@@ -189,7 +189,7 @@ When done, under Windows Terminal drop-down menu navigate to Settings and add `"
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
-_Next,_ we need to install Powerlevel10k itself with these commands:
+_Next,_ we need to install **Powerlevel10k** itself with these commands:
 
 ```text
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
@@ -248,10 +248,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
-To access .zshrc config from now on we will use VSCode as editor so let's install it:
+To access .zshrc config from now on we will use _**VSCode**_ as editor so let's install it:
 
-* Open Windows PowerShell tab and enter `choco install vscode` 
-* Now, back to Ubuntu tab, type `code ~/.zshrc` 
+* Open Windows _**PowerShell tab**_ and enter `choco install vscode` 
+* Now, back to _**Ubuntu tab**_, type `code ~/.zshrc` 
   * Note: Since this is the first time we're running VSCode, accept _**Remote - WSL extension**_ to be installed.
 * add plugins:
   * git
@@ -269,6 +269,8 @@ To access .zshrc config from now on we will use VSCode as editor so let's instal
 * Save changes by hitting Ctrl+S.
 
 {% hint style="info" %}
-_Notice bottom-left corner of VSCode indicating we're inside Ubuntu over WSL._
+_Notice bottom-left corner of VS Code indicating we're inside Ubuntu over WSL._
 {% endhint %}
+
+So, from now on if we want to access to zsh config, we'll just type alias: `zshconfig`
 
