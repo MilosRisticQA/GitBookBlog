@@ -88,13 +88,13 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 {% endtab %}
 {% endtabs %}
 
-### Browsers
+### Browsers 
 
 * Chrome
 * Firefox
 * Firefox Dev
 
-### Tools
+### Tools 🛠
 
 * [notepadplusplus](../cool-stuff/notepad++-customization.md) 🚀
 * [greenshot](https://getgreenshot.org/) 🚀
