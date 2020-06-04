@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome page 👋](README.md)
-* [Curriculum vitae](curriculum-vitae.md)
 
 ## Testing 🍒 <a id="topics"></a>
 
