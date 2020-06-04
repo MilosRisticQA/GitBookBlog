@@ -6,7 +6,7 @@ description: 'Every guest has to be properly welcomed, won''t you agree? :)'
 
 This tiny space on the web will be mainly focused on automation testing practices and solutions based on diverse resources such as blogs, books, video courses, podcasts and wise advice I got from professional developers I've been lucky to meet.
 
-Here you'll find topics about basics of Object-Oriented Paradigm in different programming languages used in test automation frameworks covering both Client and Server-side, meaning there we'll talk about testing of web services, API and databases and also how do we approach to testing of web UI by using different automation testing tools.
+Here you'll find topics about basics of Object-Oriented Paradigm in different programming languages used in test automation frameworks covering both Client and Server-side, meaning here we'll talk about testing of web services, API and databases and also how do we approach to testing of web UI by using different automation testing tools.
 
 Also, as setting up environments and configuration files for infrastructure for our projects is very important please be ready for plenty of screenshots from both Windows and Linux ❤ ecosystems followed by necessary commands presented in code blocks. 
 
