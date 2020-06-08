@@ -102,11 +102,14 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [vscode](https://code.visualstudio.com/) 🚀
 * 7zip
 * postman
+* [powertoys](https://github.com/microsoft/PowerToys)
+* [ditto](https://ditto-cp.sourceforge.io/)
+* [autohotkey](https://www.autohotkey.com/)
 
 {% tabs %}
 {% tab title="Run" %}
 ```csharp
-choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip postman
+choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip postman powertoys dexpot ditto autohotkey
 ```
 {% endtab %}
 {% endtabs %}
