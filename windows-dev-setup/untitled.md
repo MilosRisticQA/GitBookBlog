@@ -105,6 +105,9 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [powertoys](https://github.com/microsoft/PowerToys)
 * [ditto](https://ditto-cp.sourceforge.io/)
 * [autohotkey](https://www.autohotkey.com/)
+  * create _**hotkeys.ahk**_ in C:\Users\&lt;your-username&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup like: 
+
+![AutoHotKeys shortcuts where \# is WinKey](../.gitbook/assets/image%20%2832%29.png)
 
 {% tabs %}
 {% tab title="Run" %}
