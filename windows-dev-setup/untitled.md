@@ -96,12 +96,12 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 
 ### Tools 🛠
 
-* [notepadplusplus](../cool-stuff/notepad++-customization.md) 🚀
-* [greenshot](https://getgreenshot.org/) 🚀
-* [git](https://git-scm.com/) 🚀
-* [vscode](https://code.visualstudio.com/) 🚀
-* 7zip
-* postman
+* [notepadplusplus](../cool-stuff/notepad++-customization.md) 
+* [greenshot](https://getgreenshot.org/) 
+* [git](https://git-scm.com/) 
+* [vscode](https://code.visualstudio.com/) 
+* [7zip](https://www.7-zip.org/)
+* [postman](https://www.postman.com/)
 * [powertoys](https://github.com/microsoft/PowerToys)
 * [ditto](https://ditto-cp.sourceforge.io/)
 * [autohotkey](https://www.autohotkey.com/)
