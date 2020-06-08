@@ -107,7 +107,7 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 * [autohotkey](https://www.autohotkey.com/)
   * create _**hotkeys.ahk**_ in C:\Users\&lt;your-username&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup like: 
 
-![AutoHotKeys shortcuts where \# is WinKey](../.gitbook/assets/image%20%2832%29.png)
+![AutoHotKeys shortcuts where \# is WinKey](../.gitbook/assets/image%20%2834%29.png)
 
 {% tabs %}
 {% tab title="Run" %}
@@ -117,9 +117,9 @@ choco install googlechrome firefox notepadplusplus greenshot git vscode 7zip pos
 {% endtab %}
 {% endtabs %}
 
+
+
 {% embed url="https://www.mozilla.org/en-US/firefox/developer/" %}
-
-
 
 ## Make Backup of installed choco packages for re-use
 
