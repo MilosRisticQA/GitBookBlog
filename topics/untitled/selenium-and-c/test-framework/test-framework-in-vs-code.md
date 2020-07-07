@@ -4,7 +4,7 @@ description: 'using C#, SpecFlow, NUnit and Selenium WebDriver'
 
 # .. in VS Code
 
-## Setup
+## Basic Setup
 
 {% hint style="warning" %}
 Prerequisites: 
